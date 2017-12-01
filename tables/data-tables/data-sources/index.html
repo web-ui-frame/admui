@@ -1,0 +1,3030 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="zh-cn">
+
+<head>
+    <title>主页</title>
+    
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="keywords" content="admui,admui官网,admui下载,admui框架,通用后台管理系统,后台框架,ui框架" />
+<meta name="description" content="Admui在线演示系统，Admui是一个基于最新Web技术的企业级通用管理系统快速开发框架，可以帮助企业极大的提高工作效率，节省开发成本，提升品牌形象。" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 移动设备 viewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui">
+<meta name="author" content="admui.com">
+<!-- 360浏览器默认使用Webkit内核 -->
+<meta name="renderer" content="webkit">
+<!-- 禁止百度SiteAPP转码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<!-- Chrome浏览器添加桌面快捷方式（安卓） -->
+<link rel="icon" type="image/png" href="../../../demo/1.1.0/images/favicon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Safari浏览器添加到主屏幕（IOS） -->
+<link rel="icon" sizes="192x192" href="../../../demo/1.1.0/images/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Admui">
+<!-- Win8标题栏及ICON图标 -->
+<link rel="apple-touch-icon-precomposed" href="../../../demo/1.1.0/images/apple-touch-icon.png">
+<meta name="msapplication-TileImage" content="http://cdn.admui.com/demo/1.1.0/images/app-icon72x72@2x.png">
+<meta name="msapplication-TileColor" content="#62a8ea">
+<!-- 样式 -->
+<link rel="stylesheet" href="../../../demo/1.1.0/themes/classic/base/css/site.css" id="siteStyle">
+<!--[if lte IE 9]>
+<meta http-equiv="refresh" content="0; url='http://www.admui.com/ie/'" />
+<![endif]-->
+<!--[if lt IE 10]>
+<script src="../../../demo/1.1.0/vendor/media-match/media.match.min.js"></script>
+<script src="../../../demo/1.1.0/vendor/respond/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+    
+    <!-- 图标 CSS-->
+    <link rel="stylesheet" href="../../../demo/1.1.0/fonts/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="../../../demo/1.1.0/fonts/web-icons/web-icons.css">
+    
+    <!-- 插件 CSS -->
+    <link rel="stylesheet" href="../../../demo/1.1.0/vendor/animsition/animsition.css">
+    <link rel="stylesheet" href="../../../demo/1.1.0/vendor/toastr/toastr.css">
+    <link rel="stylesheet" href="../../../demo/1.1.0/css/demo.css">
+    
+    <!-- 插件 -->
+    <script src="../../../demo/1.1.0/vendor/jquery/jquery.min.js"></script>
+    <script src="../../../demo/1.1.0/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../../../demo/1.1.0/vendor/modernizr/modernizr.min.js"></script>
+    <script src="../../../demo/1.1.0/vendor/breakpoints/breakpoints.min.js"></script>
+    <script src="../../../demo/1.1.0/vendor/artTemplate/template.min.js"></script>
+    <script src="../../../demo/1.1.0/vendor/toastr/toastr.min.js"></script>
+    <script src="../../../demo/1.1.0/vendor/bootbox/bootbox.min.js"></script>
+    
+    <!-- 核心  -->
+    <script src="../../../demo/1.1.0/themes/classic/global/js/core.js"></script>
+    <script src="../../../demo/1.1.0/themes/classic/base/js/site.js"></script>
+    <script src="../../../demo/1.1.0/themes/classic/global/js/configs/site-configs.js"></script>
+    <script src="../../../demo/1.1.0/themes/classic/global/js/components.js"></script>
+    
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c9dd85291ea88dcf64671a7dfa65e0ef";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	
+    <script>
+        Breakpoints();
+    </script>
+</head>
+
+<body class="site-contabs-open site-menubar-unfold ">
+
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-inverse " role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided" data-toggle="menubar">
+            <span class="sr-only">切换菜单</span> <span class="hamburger-bar"></span>
+        </button>
+        <button type="button" class="navbar-toggle collapsed" data-target="#admui-navbarCollapse" data-toggle="collapse">
+            <i class="icon wb-more-horizontal" aria-hidden="true"></i>
+        </button>
+        <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+            <img class="navbar-brand-logo visible-lg visible-xs navbar-logo" src="../../../demo/1.1.0/images/logo-white.svg" title="Admui">
+            <img class="navbar-brand-logo hidden-xs hidden-lg navbar-logo-mini" src="../../../demo/1.1.0/images/logo-white-min.svg" title="Admui">
+        </div>
+    </div>
+    <div class="navbar-container container-fluid">
+        <div class="collapse navbar-collapse navbar-collapse-toolbar" id="admui-navbarCollapse">
+            <ul class="nav navbar-toolbar navbar-left">
+                <li class="hidden-float">
+                    <a data-toggle="menubar" class="hidden-float" href="javascript:;" role="button" id="admui-toggleMenubar">
+                        <i class="icon hamburger hamburger-arrow-left"> 
+                      		<span class="sr-only">切换目录</span>
+                            <span class="hamburger-bar"></span> 
+                        </i>
+                    </a>
+                </li>
+                <li class="navbar-menu nav-tabs-horizontal nav-tabs-animate is-load" id="admui-navMenu">
+                    <ul class="nav navbar-toolbar nav-tabs" role="tablist">
+                        <!-- 顶部菜单 -->
+                    	
+                        <li role="presentation" class="active">
+                            <a data-toggle="tab" href="#admui-navTabsItem-1" aria-controls="admui-navTabsItem-1" role="tab" aria-expanded="false">
+                                <i class="icon wb-library"></i> <span>UI 示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-2" aria-controls="admui-navTabsItem-2" role="tab" aria-expanded="false">
+                                <i class="icon wb-desktop"></i> <span>页面示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-3" aria-controls="admui-navTabsItem-3" role="tab" aria-expanded="false">
+                                <i class="icon wb-table"></i> <span>表格示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-4" aria-controls="admui-navTabsItem-4" role="tab" aria-expanded="false">
+                                <i class="icon wb-order"></i> <span>表单示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-5" aria-controls="admui-navTabsItem-5" role="tab" aria-expanded="false">
+                                <i class="icon wb-pie-chart"></i> <span>统计图表</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-6" aria-controls="admui-navTabsItem-6" role="tab" aria-expanded="false">
+                                <i class="icon fa-bars"></i> <span>菜单示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-7" aria-controls="admui-navTabsItem-7" role="tab" aria-expanded="false">
+                                <i class="icon wb-settings"></i> <span>系统管理</span>
+                            </a>
+                        </li>
+                        
+                        <li class="dropdown" id="admui-navbarSubMenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-animation="slide-bottom" aria-expanded="true" role="button">
+                                <i class="icon wb-more-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="no-menu" role="presentation">
+                                    <a href="/sitemap.html" target="_blank" role="menuitem" data-pjax>
+                                        <i class="icon wb-list-numbered"></i><span>网站地图</span>
+                                    </a>
+                                </li>
+                                <li class="no-menu" role="presentation">
+                                    <a href="/system/menu.html" target="_blank" role="menuitem" data-pjax>
+                                        <i class="icon wb-wrench"></i><span>菜单管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+                <li class="dropdown" id="admui-navbarMessage">
+                    <a data-toggle="dropdown" href="javascript:;" class="msg-btn" aria-expanded="false" data-animation="scale-up" role="button">
+                        <i class="icon wb-bell" aria-hidden="true"></i> 
+                        <span class="badge badge-danger up msg-num"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media" role="menu">
+                        <li class="dropdown-menu-header" role="presentation">
+                            <h5>最新消息</h5>
+                            <span class="label label-round label-danger"></span>
+                        </li>
+                        <li class="list-group" role="presentation">
+	                        <div class="navbar-message-content" id="admui-messageContent" data-height="220px" data-plugin="slimScroll"></div>
+	                      	<script type="text/html" id="admui-messageTpl">
+										{{if msgList.length < 1}}
+										<p class="text-center height-200 vertical-align">
+	                                		<small class="vertical-align-middle opacity-four">没有新消息</small>
+	                            		</p>
+										{{else}}
+                                        {{each msgList}}
+                                        <a class="list-group-item" href="#"  data-message-id="{{$value.messageId}}" data-title="{{$value.title}}" data-content="{{$value.content}}" role="menuitem">
+                                            <div class="media">
+                                                <div class="media-left padding-right-10">
+                                                    <i class="icon {{$value.type | iconType}} white icon-circle" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="media-heading">{{$value.title}}</h6>
+                                                    <time class="media-meta" datetime="{{$value.sendTime}}">
+                                                        {{$value.sendTime | timeMsg}}
+                                                    </time>
+                                                </div>
+                                            </div>
+                                        </a>{{/each}}
+										{{/if}}
+                                 </script>
+                        </li>
+                        <li class="dropdown-menu-footer" role="presentation">
+                            <a href="/system/account/message.html" target="_blank" data-pjax>
+                            	<i class="icon fa-navicon"></i> 所有消息
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hidden-xs" id="admui-navbarDisplay" data-toggle="tooltip" data-placement="bottom" title="设置主题与布局等">
+                    <a class="icon wb-layout" href="/system/settings/display.html" target="_blank" data-pjax>
+                        <span class="sr-only">主题与布局</span>
+                    </a>
+                </li>
+                <li class="hidden-xs" id="admui-QRcode" data-toggle="tooltip" data-placement="bottom" title="在手机上预览本页">
+                    <a class="icon wb-mobile" href="#" data-toggle="modal" data-target="#admui-mobileView">
+                        <span class="sr-only">在手机上预览</span></a>
+                </li>
+                <li class="hidden-xs" id="admui-demo-app" data-toggle="tooltip" data-placement="bottom" title="下载桌面版">
+                    <a class="icon wb-download dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" role="button">
+                        <span class="sr-only">下载桌面版</span></a>
+                    <ul class="dropdown-menu dropdown-menu-success bullet dropdown-menu-right" aria-labelledby="demoApp" role="menu">
+                        <li role="presentation">
+                            <a href="http://dl.admui.com/app/win/admui-demo.zip" role="menuitem"><i class="icon fa-windows"></i> Windows 版</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="http://dl.admui.com/app/mac/admui-demo.zip" role="menuitem"><i class="icon fa-apple"></i> MacOS 版</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="open-kf" id="admui-service" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="在线咨询">
+                    <a class="icon wb-user" href="#" role="button">
+                        <span class="sr-only">在线咨询</span></a>
+                </li>
+                <li class="hidden-xs" id="admui-navbarFullscreen" data-toggle="tooltip" data-placement="bottom" title="全屏">
+                    <a class="icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
+                        <span class="sr-only">全屏</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icon fa-sign-out" id="admui-signOut" data-ctx="" data-user="9" href="/system/login.html" role="button">
+                    	<span class="sr-only">退出</span>
+                   	</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="site-menubar site-menubar-dark">
+    <div class="site-menubar-body">
+        <div class="tab-content height-full" id="admui-navTabs">
+        	<!-- 一级菜单 -->
+            
+            <div class="tab-pane animation-fade height-full active" id="admui-navTabsItem-1" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">UI 示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-laptop" aria-hidden="true"></i><span class="site-menu-title">布局</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">栅格</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/grids.html" target="_blank">
+	                                                <span class="site-menu-title">基本栅格</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/layout-grid.html" target="_blank">
+	                                                <span class="site-menu-title">布局栅格</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">标题栏</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/headers.html" target="_blank">
+	                                                <span class="site-menu-title">普通</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/bordered-header.html" target="_blank">
+	                                                <span class="site-menu-title">带边框</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/panel-transition.html" target="_blank">
+                                    	<span class="site-menu-title">面板动画</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/boxed.html" target="_blank">
+                                    	<span class="site-menu-title">盒式布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/page-aside.html" target="_blank">
+                                    	<span class="site-menu-title">侧边栏</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/two-columns.html" target="_blank">
+                                    	<span class="site-menu-title">两栏式布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-cube" aria-hidden="true"></i><span class="site-menu-title">基本</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">面板</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/structure.html" target="_blank">
+	                                                <span class="site-menu-title">面板结构</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/actions.html" target="_blank">
+	                                                <span class="site-menu-title">面板操作</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/portlets.html" target="_blank">
+	                                                <span class="site-menu-title">面板组件</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/buttons.html" target="_blank">
+                                    	<span class="site-menu-title">按钮</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/icons.html" target="_blank">
+                                    	<span class="site-menu-title">矢量图标</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/dropdowns.html" target="_blank">
+                                    	<span class="site-menu-title">下拉菜单</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/list.html" target="_blank">
+                                    	<span class="site-menu-title">列表组</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/tooltip-popover.html" target="_blank">
+                                    	<span class="site-menu-title">气泡提示 & 弹出框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/modals.html" target="_blank">
+                                    	<span class="site-menu-title">模态框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/tabs-accordions.html" target="_blank">
+                                    	<span class="site-menu-title">选项卡 & 折叠面板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/images.html" target="_blank">
+                                    	<span class="site-menu-title">图片</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/badges-labels.html" target="_blank">
+                                    	<span class="site-menu-title">徽章 & 标签</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/carousel.html" target="_blank">
+                                    	<span class="site-menu-title">轮播组件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/typography.html" target="_blank">
+                                    	<span class="site-menu-title">排版</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/progress-bars.html" target="_blank">
+                                    	<span class="site-menu-title">进度条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/colors.html" target="_blank">
+                                    	<span class="site-menu-title">配色方案</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/utilities.html" target="_blank">
+                                    	<span class="site-menu-title">辅助类</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-cubes" aria-hidden="true"></i><span class="site-menu-title">进阶</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/tour.html" target="_blank">
+                                    	<span class="site-menu-title">新手指引</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/animation.html" target="_blank">
+                                    	<span class="site-menu-title">动画</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/highlight.html" target="_blank">
+                                    	<span class="site-menu-title">代码高亮</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/lightbox.html" target="_blank">
+                                    	<span class="site-menu-title">灯箱</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/scrollbar.html" target="_blank">
+                                    	<span class="site-menu-title">滚动条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/rating.html" target="_blank">
+                                    	<span class="site-menu-title">评分</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/context-menu.html" target="_blank">
+                                    	<span class="site-menu-title">右键菜单</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/alertify.html" target="_blank">
+                                    	<span class="site-menu-title">Alertify弹框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/masonry.html" target="_blank">
+                                    	<span class="site-menu-title">瀑布流布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">树形控件</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/advanced/tree/jstree.html" target="_blank">
+	                                                <span class="site-menu-title">JsTree</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/advanced/tree/treeview.html" target="_blank">
+	                                                <span class="site-menu-title">Treeview</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/toastr.html" target="_blank">
+                                    	<span class="site-menu-title">Toaster 通知</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/sortable-nestable.html" target="_blank">
+                                    	<span class="site-menu-title">拖动排序</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/bootbox-sweetalert.html" target="_blank">
+                                    	<span class="site-menu-title">弹层组件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-plug" aria-hidden="true"></i><span class="site-menu-title">组件</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/alerts.html" target="_blank">
+                                    	<span class="site-menu-title">警告框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/ribbon.html" target="_blank">
+                                    	<span class="site-menu-title">彩带</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/pricing-tables.html" target="_blank">
+                                    	<span class="site-menu-title">价目表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/overlay.html" target="_blank">
+                                    	<span class="site-menu-title">遮罩</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/cover.html" target="_blank">
+                                    	<span class="site-menu-title">覆盖层</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">时间轴</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/structure/timeline/simple.html" target="_blank">
+	                                                <span class="site-menu-title">简单时间轴</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/structure/timeline/icons.html" target="_blank">
+	                                                <span class="site-menu-title">图标时间轴</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/step.html" target="_blank">
+                                    	<span class="site-menu-title">步骤条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/comments.html" target="_blank">
+                                    	<span class="site-menu-title">评论</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/media.html" target="_blank">
+                                    	<span class="site-menu-title">媒体</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/chat.html" target="_blank">
+                                    	<span class="site-menu-title">聊天窗口</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/testimonials.html" target="_blank">
+                                    	<span class="site-menu-title">客户评价</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/nav.html" target="_blank">
+                                    	<span class="site-menu-title">导航</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/navbars.html" target="_blank">
+                                    	<span class="site-menu-title">导航条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/blockquotes.html" target="_blank">
+                                    	<span class="site-menu-title">引用</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/pagination.html" target="_blank">
+                                    	<span class="site-menu-title">分页</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/breadcrumbs.html" target="_blank">
+                                    	<span class="site-menu-title">包屑导航</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-puzzle-piece" aria-hidden="true"></i><span class="site-menu-title">小工具</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/statistics.html" target="_blank">
+                                    	<span class="site-menu-title">统计</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/data.html" target="_blank">
+                                    	<span class="site-menu-title">数据</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/blog.html" target="_blank">
+                                    	<span class="site-menu-title">博客</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/chart.html" target="_blank">
+                                    	<span class="site-menu-title">图表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/social.html" target="_blank">
+                                    	<span class="site-menu-title">社交</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/weather.html" target="_blank">
+                                    	<span class="site-menu-title">天气</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-2" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">页面示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-home" aria-hidden="true"></i><span class="site-menu-title">首页示例</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/index-v1.html" target="_blank">
+                                    	<span class="site-menu-title">首页示例 01</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/index-v2.html" target="_blank">
+                                    	<span class="site-menu-title">首页示例 02</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/ecommerce.html" target="_blank">
+                                    	<span class="site-menu-title">电商网站型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/analytics.html" target="_blank">
+                                    	<span class="site-menu-title">数据统计型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/team.html" target="_blank">
+                                    	<span class="site-menu-title">团队协作型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-files-o" aria-hidden="true"></i><span class="site-menu-title">常用页面</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/blank.html" target="_blank">
+                                    	<span class="site-menu-title">空白页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/faq.html" target="_blank">
+                                    	<span class="site-menu-title">帮助文档</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/gallery-grid.html" target="_blank">
+                                    	<span class="site-menu-title">相册</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/search-result.html" target="_blank">
+                                    	<span class="site-menu-title">搜索</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/user.html" target="_blank">
+                                    	<span class="site-menu-title">客户列表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/email.html" target="_blank">
+                                    	<span class="site-menu-title">邮件模板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/code-editor.html" target="_blank">
+                                    	<span class="site-menu-title">代码编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/error.html" target="_blank">
+                                    	<span class="site-menu-title">错误页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/noauth.html" target="_blank">
+                                    	<span class="site-menu-title">没有权限</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/maintenance.html" target="_blank">
+                                    	<span class="site-menu-title">网站维护中</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/locked.html" target="_blank">
+                                    	<span class="site-menu-title">锁屏页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-group" aria-hidden="true"></i><span class="site-menu-title">团队协作</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/calendar.html" target="_blank">
+                                    	<span class="site-menu-title">日历</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/notebook.html" target="_blank">
+                                    	<span class="site-menu-title">笔记</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/taskboard.html" target="_blank">
+                                    	<span class="site-menu-title">任务看板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">知识库</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/articles.html" target="_blank">
+	                                                <span class="site-menu-title">列表</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/categories.html" target="_blank">
+	                                                <span class="site-menu-title">分类</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/article.html" target="_blank">
+	                                                <span class="site-menu-title">详情</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/forum.html" target="_blank">
+                                    	<span class="site-menu-title">论坛</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/message.html" target="_blank">
+                                    	<span class="site-menu-title">即时通讯</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/mailbox.html" target="_blank">
+                                    	<span class="site-menu-title">邮箱</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/media.html" target="_blank">
+                                    	<span class="site-menu-title">文件管理</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">项目</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/projects.html" target="_blank">
+	                                                <span class="site-menu-title">项目列表 01</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/work.html" target="_blank">
+	                                                <span class="site-menu-title">项目列表 02</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-3" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">表格示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/tables/basic/index.html" target="_blank">
+                            	<i class="site-menu-icon fa-table" aria-hidden="true"></i><span class="site-menu-title">基本表格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/tables/treegrid/index.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">树形表格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-list-alt" aria-hidden="true"></i><span class="site-menu-title">DataTables</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/basic-init/index.html" target="_blank">
+                                    	<span class="site-menu-title">基本初始化</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/advanced-init/index.html" target="_blank">
+                                    	<span class="site-menu-title">高级初始化</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/data-sources/index.html" target="_blank">
+                                    	<span class="site-menu-title">数据源</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/api/index.html" target="_blank">
+                                    	<span class="site-menu-title">API</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/ajax/index.html" target="_blank">
+                                    	<span class="site-menu-title">AJAX</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/server-side/index.html" target="_blank">
+                                    	<span class="site-menu-title">服务器模式</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/plug-ins/index.html" target="_blank">
+                                    	<span class="site-menu-title">插件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/others/index.html" target="_blank">
+                                    	<span class="site-menu-title">其他</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-4" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">表单相关</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/general.html" target="_blank">
+                            	<i class="site-menu-icon fa-circle-o" aria-hidden="true"></i><span class="site-menu-title">基本表单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/material.html" target="_blank">
+                            	<i class="site-menu-icon fa-google" aria-hidden="true"></i><span class="site-menu-title">质感风格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/advanced.html" target="_blank">
+                            	<i class="site-menu-icon fa-toggle-off" aria-hidden="true"></i><span class="site-menu-title">高级表单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/layouts.html" target="_blank">
+                            	<i class="site-menu-icon fa-indent" aria-hidden="true"></i><span class="site-menu-title">表单布局</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/wizard.html" target="_blank">
+                            	<i class="site-menu-icon fa-arrow-right" aria-hidden="true"></i><span class="site-menu-title">表单向导</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/validation.html" target="_blank">
+                            	<i class="site-menu-icon fa-check-square-o" aria-hidden="true"></i><span class="site-menu-title">表单验证</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/masks.html" target="_blank">
+                            	<i class="site-menu-icon fa-at" aria-hidden="true"></i><span class="site-menu-title">格式预设</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/editable.html" target="_blank">
+                            	<i class="site-menu-icon fa-edit" aria-hidden="true"></i><span class="site-menu-title">表单编辑</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-list-alt" aria-hidden="true"></i><span class="site-menu-title">编辑器</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/summernote.html" target="_blank">
+                                    	<span class="site-menu-title">文本编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/markdown.html" target="_blank">
+                                    	<span class="site-menu-title">Markdown编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/ace.html" target="_blank">
+                                    	<span class="site-menu-title">代码编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/image-cropping.html" target="_blank">
+                            	<i class="site-menu-icon fa-cut" aria-hidden="true"></i><span class="site-menu-title">图片裁剪</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/dropify.html" target="_blank">
+                            	<i class="site-menu-icon fa-cloud-upload" aria-hidden="true"></i><span class="site-menu-title">文件上传</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-5" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">统计图表</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-pie-chart" aria-hidden="true"></i><span class="site-menu-title">简单图表</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/chartjs.html" target="_blank">
+                                    	<span class="site-menu-title">Chart.js</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/gauges.html" target="_blank">
+                                    	<span class="site-menu-title">Gauges</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/flot.html" target="_blank">
+                                    	<span class="site-menu-title">Flot</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/peity.html" target="_blank">
+                                    	<span class="site-menu-title">Peity</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/sparkline.html" target="_blank">
+                                    	<span class="site-menu-title">Sparkline</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/morris.html" target="_blank">
+                                    	<span class="site-menu-title">Morris</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/chartist.html" target="_blank">
+                                    	<span class="site-menu-title">Chartist</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/rickshaw.html" target="_blank">
+                                    	<span class="site-menu-title">Rickshaw</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/c3.html" target="_blank">
+                                    	<span class="site-menu-title">C3</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/charts/echarts.html" target="_blank">
+                            	<i class="site-menu-icon fa-area-chart" aria-hidden="true"></i><span class="site-menu-title">百度 Echarts</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-6" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">菜单演示 01</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">一级菜单</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/menu.html" target="_blank">
+                                    	<span class="site-menu-title">二级菜单 01</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/menu.html" target="_blank">
+                                    	<span class="site-menu-title">二级菜单 02</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">二级菜单 03</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 001</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 002</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 003</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="#" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">独立菜单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<li class="site-menu-category">菜单演示 02</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/menu.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">独立菜单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-7" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">系统信息</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/menu.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">菜单管理</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/user.html" target="_blank">
+                            	<i class="site-menu-icon fa-street-view" aria-hidden="true"></i><span class="site-menu-title">用户管理</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/log.html" target="_blank">
+                            	<i class="site-menu-icon fa-file-text-o" aria-hidden="true"></i><span class="site-menu-title">日志信息</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/blacklist.html" target="_blank">
+                            	<i class="site-menu-icon fa-shield" aria-hidden="true"></i><span class="site-menu-title">黑名单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-gear" aria-hidden="true"></i><span class="site-menu-title">系统设置</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/system/settings/display.html" target="_blank">
+                                    	<span class="site-menu-title">显示设置</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/system/settings/log.html" target="_blank">
+                                    	<span class="site-menu-title">日志设置</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<li class="site-menu-category">我的账户</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/account.html" target="_blank">
+                            	<i class="site-menu-icon fa-key" aria-hidden="true"></i><span class="site-menu-title">账户信息</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 一级菜单 -->
+        </div>
+    </div>
+</nav>
+<nav class="site-contabs" id="admui-siteConTabs">
+    <button type="button" class="btn btn-icon btn-default pull-left hide">
+        <i class="icon fa-angle-double-left"></i>
+    </button>
+    <div class="contabs-scroll pull-left">
+        <ul class="nav con-tabs">
+            <li class="active">
+                <a data-pjax href="/home.html" rel="contents"><span>首页</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-group pull-right">
+        <button type="button" class="btn btn-icon btn-default hide">
+            <i class="icon fa-angle-double-right"></i>
+        </button>
+        <button type="button" class="btn btn-default dropdown-toggle btn-outline" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span> <span class="sr-only">切换菜单</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="conTabsDropdown" role="menu">
+            <li class="reload-page" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-reload"></i> 刷新当前</a>
+            </li>
+            <li class="close-other" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-close"></i> 关闭其他</a>
+            </li>
+            <li class="close-all" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-power"></i> 关闭所有</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="site-page">
+    <div class="page-container" id="admui-pageContent">
+    
+    
+	
+
+
+
+
+
+
+<title>数据源</title>
+
+<link rel="stylesheet" href="../../../demo/1.1.0/vendor/datatables-bootstrap/dataTables.bootstrap.css">
+<link rel="stylesheet" href="../../../demo/1.1.0/vendor/datatables-fixedheader/dataTables.fixedHeader.css">
+<link rel="stylesheet" href="../../../demo/1.1.0/vendor/datatables-responsive/dataTables.responsive.css">
+<link rel="stylesheet" href="../../../demo/1.1.0/vendor/highlight/default.css">
+<link rel="stylesheet" href="../../../demo/1.1.0/vendor/highlight/github-gist.css">
+<link rel="stylesheet" href="../../../demo/1.1.0/vendor/highlight/highlight.css">
+<link rel="stylesheet" href="../../../demo/1.1.0/css/examples/tables/data-tables/examples.css">
+
+<script src="../../../demo/1.1.0/vendor/datatables/jquery.dataTables.min.js" data-name="dataTables"></script>
+<script src="../../../demo/1.1.0/vendor/datatables-bootstrap/dataTables.bootstrap.min.js" data-deps="dataTables"></script>
+<script src="../../../demo/1.1.0/vendor/datatables-responsive/dataTables.responsive.min.js" data-deps="dataTables"></script>
+
+<div class="page page-full animation-fade page-data-tables">
+    <div class="page-aside">
+        <div class="page-aside-switch">
+            <i class="icon wb-chevron-left" aria-hidden="true"></i>
+            <i class="icon wb-chevron-right" aria-hidden="true"></i>
+        </div>
+        <div class="page-aside-inner height-full" data-plugin="slimScroll">
+            <section class="page-aside-section">
+                <h5 class="page-aside-title">数据源</h5>
+                <div class="list-group">
+                    <a class="list-group-item" href="/tables/data-tables/data-sources/dom" data-pjax="#DTConent">
+                        <i class="icon fa-circle-o"></i> Html(DOM)数据源
+                    </a>
+                    <a class="list-group-item" href="/tables/data-tables/data-sources/ajax" data-pjax="#DTConent">
+                        <i class="icon fa-circle-o"></i> Ajax数据源
+                    </a>
+                    <a class="list-group-item" href="/tables/data-tables/data-sources/js-array" data-pjax="#DTConent">
+                        <i class="icon fa-circle-o"></i> Javascript数据源
+                    </a>
+                    <a class="list-group-item" href="/tables/data-tables/data-sources/server-side" data-pjax="#DTConent">
+                        <i class="icon fa-circle-o"></i> 服务器处理
+                    </a>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <div class="page-main">
+        <div class="page-header">
+            <h1 class="page-title">DataTables 数据源</h1>
+            <div class="page-header-actions">
+                <a class="btn btn-inverse btn-round" href="https://datatables.net/" target="_blank">
+                    <i class="icon wb-link" aria-hidden="true"></i> <span class="hidden-xs">官网</span></a>
+                <a class="btn btn-inverse btn-round" href="http://datatables.club/" target="_blank">
+                    <i class="icon fa-language" aria-hidden="true"></i> <span class="hidden-xs">中文网</span></a>
+            </div>
+        </div>
+        <div class="page-content" id="DTConent">
+        	
+			
+
+
+
+
+
+
+<div class="panel">
+    <div class="panel-heading">
+        <h3 class="panel-title">Html(DOM)数据源</h3>
+    </div>
+    <div class="alert alert-warning" role="alert">
+        <p>DOM 数据源是 DataTables 最基本的用法，下面演示了html静态数据使用 DataTables 实现过滤，排序，分页</p>
+    </div>
+    <div class="panel-body">
+        <table class="table table-bordered table-hover dataTable table-striped width-full text-nowrap" id="dataTableExample" data-plugin="dataTable">
+            <thead>
+            <tr>
+                <th>姓名</th>
+                <th>职位</th>
+                <th>工作地点</th>
+                <th>年龄</th>
+                <th>入职时间</th>
+                <th>年薪</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th>姓名</th>
+                <th>职位</th>
+                <th>工作地点</th>
+                <th>年龄</th>
+                <th>入职时间</th>
+                <th>年薪</th>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+                <td>李霞</td>
+                <td>系统架构师</td>
+                <td>北京</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>&yen;320,800</td>
+            </tr>
+            <tr>
+                <td>杜重治</td>
+                <td>会计</td>
+                <td>上海</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>&yen;170,750</td>
+            </tr>
+            <tr>
+                <td>陈锋</td>
+                <td>初级开发者</td>
+                <td>深圳</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>&yen;86,000</td>
+            </tr>
+            <tr>
+                <td>郑伯宁</td>
+                <td>高级JavaScript开发者</td>
+                <td>北京</td>
+                <td>22</td>
+                <td>2012/03/29</td>
+                <td>&yen;433,060</td>
+            </tr>
+            <tr>
+                <td>施华军</td>
+                <td>会计</td>
+                <td>上海</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>&yen;162,700</td>
+            </tr>
+            <tr>
+                <td>吴书振</td>
+                <td>集成专家</td>
+                <td>南京</td>
+                <td>61</td>
+                <td>2012/12/02</td>
+                <td>&yen;372,000</td>
+            </tr>
+            <tr>
+                <td>张宁</td>
+                <td>销售代表</td>
+                <td>深圳</td>
+                <td>59</td>
+                <td>2012/08/06</td>
+                <td>&yen;137,500</td>
+            </tr>
+            <tr>
+                <td>马世波</td>
+                <td>集成专家</td>
+                <td>上海</td>
+                <td>55</td>
+                <td>2010/10/14</td>
+                <td>&yen;327,900</td>
+            </tr>
+            <tr>
+                <td>张章</td>
+                <td>Javascript开发者</td>
+                <td>深圳</td>
+                <td>39</td>
+                <td>2009/09/15</td>
+                <td>&yen;205,500</td>
+            </tr>
+            <tr>
+                <td>张竹影</td>
+                <td>软件工程师</td>
+                <td>北京</td>
+                <td>23</td>
+                <td>2008/12/13</td>
+                <td>&yen;103,600</td>
+            </tr>
+            <tr>
+                <td>韩庆福</td>
+                <td>办公室主管</td>
+                <td>广州</td>
+                <td>30</td>
+                <td>2008/12/19</td>
+                <td>&yen;90,560</td>
+            </tr>
+            <tr>
+                <td>刘勇</td>
+                <td>客户服务</td>
+                <td>北京</td>
+                <td>22</td>
+                <td>2013/03/03</td>
+                <td>&yen;342,000</td>
+            </tr>
+            <tr>
+                <td>张忆湫</td>
+                <td>大区经理</td>
+                <td>深圳</td>
+                <td>36</td>
+                <td>2008/10/16</td>
+                <td>&yen;470,600</td>
+            </tr>
+            <tr>
+                <td>尚志兴</td>
+                <td>高级营销设计师</td>
+                <td>广州</td>
+                <td>43</td>
+                <td>2012/12/18</td>
+                <td>&yen;313,500</td>
+            </tr>
+            <tr>
+                <td>杜若芳</td>
+                <td>大区经理</td>
+                <td>广州</td>
+                <td>19</td>
+                <td>2010/03/17</td>
+                <td>&yen;385,750</td>
+            </tr>
+            <tr>
+                <td>杨乔松</td>
+                <td>营销设计师</td>
+                <td>广州</td>
+                <td>66</td>
+                <td>2012/11/27</td>
+                <td>&yen;198,500</td>
+            </tr>
+            <tr>
+                <td>闫跃进</td>
+                <td>CEO</td>
+                <td>南京</td>
+                <td>64</td>
+                <td>2010/06/09</td>
+                <td>&yen;725,000</td>
+            </tr>
+            <tr>
+                <td>孙凯</td>
+                <td>系统管理员</td>
+                <td>南京</td>
+                <td>59</td>
+                <td>2009/04/10</td>
+                <td>&yen;237,500</td>
+            </tr>
+            <tr>
+                <td>赖祥校</td>
+                <td>软件工程师</td>
+                <td>广州</td>
+                <td>41</td>
+                <td>2012/10/13</td>
+                <td>&yen;132,000</td>
+            </tr>
+            <tr>
+                <td>郭晖</td>
+                <td>人事主管</td>
+                <td>北京</td>
+                <td>35</td>
+                <td>2012/09/26</td>
+                <td>&yen;217,500</td>
+            </tr>
+            <tr>
+                <td>贺光明</td>
+                <td>技术主管</td>
+                <td>南京</td>
+                <td>30</td>
+                <td>2011/09/03</td>
+                <td>&yen;345,000</td>
+            </tr>
+            <tr>
+                <td>邓小燕</td>
+                <td>CMO</td>
+                <td>南京</td>
+                <td>40</td>
+                <td>2009/06/25</td>
+                <td>&yen;675,000</td>
+            </tr>
+            <tr>
+                <td>白莉惠</td>
+                <td>售前支持</td>
+                <td>南京</td>
+                <td>21</td>
+                <td>2011/12/12</td>
+                <td>&yen;106,450</td>
+            </tr>
+            <tr>
+                <td>杨海霞</td>
+                <td>销售代表</td>
+                <td>成都</td>
+                <td>23</td>
+                <td>2010/09/20</td>
+                <td>&yen;85,600</td>
+            </tr>
+            <tr>
+                <td>利旭日</td>
+                <td>CEO</td>
+                <td>广州</td>
+                <td>47</td>
+                <td>2009/10/09</td>
+                <td>&yen;1,200,000</td>
+            </tr>
+            <tr>
+                <td>范永胜</td>
+                <td>开发者</td>
+                <td>北京</td>
+                <td>42</td>
+                <td>2010/12/22</td>
+                <td>&yen;92,575</td>
+            </tr>
+            <tr>
+                <td>于怀斌</td>
+                <td>大区经理</td>
+                <td>苏州</td>
+                <td>28</td>
+                <td>2010/11/14</td>
+                <td>&yen;357,650</td>
+            </tr>
+            <tr>
+                <td>赵淑娜</td>
+                <td>软件工程师</td>
+                <td>深圳</td>
+                <td>28</td>
+                <td>2011/06/07</td>
+                <td>&yen;206,850</td>
+            </tr>
+            <tr>
+                <td>张淑杰</td>
+                <td>COO</td>
+                <td>深圳</td>
+                <td>48</td>
+                <td>2010/03/11</td>
+                <td>&yen;850,000</td>
+            </tr>
+            <tr>
+                <td>陈俊军</td>
+                <td>区域销售</td>
+                <td>上海</td>
+                <td>20</td>
+                <td>2011/08/14</td>
+                <td>&yen;163,000</td>
+            </tr>
+            <tr>
+                <td>郭增杰</td>
+                <td>集成专家</td>
+                <td>成都</td>
+                <td>37</td>
+                <td>2011/06/02</td>
+                <td>&yen;95,400</td>
+            </tr>
+            <tr>
+                <td>林云</td>
+                <td>开发者</td>
+                <td>广州</td>
+                <td>53</td>
+                <td>2009/10/22</td>
+                <td>&yen;114,500</td>
+            </tr>
+            <tr>
+                <td>郭述龙</td>
+                <td>技术作者</td>
+                <td>广州</td>
+                <td>27</td>
+                <td>2011/05/07</td>
+                <td>&yen;145,000</td>
+            </tr>
+            <tr>
+                <td>杨军</td>
+                <td>团队主管</td>
+                <td>深圳</td>
+                <td>22</td>
+                <td>2008/10/26</td>
+                <td>&yen;235,500</td>
+            </tr>
+            <tr>
+                <td>张海龙</td>
+                <td>售后支持</td>
+                <td>北京</td>
+                <td>46</td>
+                <td>2011/03/09</td>
+                <td>&yen;324,050</td>
+            </tr>
+            <tr>
+                <td>耿静</td>
+                <td>营销设计师</td>
+                <td>深圳</td>
+                <td>47</td>
+                <td>2009/12/09</td>
+                <td>&yen;85,675</td>
+            </tr>
+            <tr>
+                <td>刘晋荣</td>
+                <td>办公室主管</td>
+                <td>深圳</td>
+                <td>51</td>
+                <td>2008/12/16</td>
+                <td>&yen;164,500</td>
+            </tr>
+            <tr>
+                <td>孙宁</td>
+                <td>秘书</td>
+                <td>深圳</td>
+                <td>41</td>
+                <td>2010/02/12</td>
+                <td>&yen;109,850</td>
+            </tr>
+            <tr>
+                <td>邢洪锐</td>
+                <td>财务总监</td>
+                <td>深圳</td>
+                <td>62</td>
+                <td>2009/02/14</td>
+                <td>&yen;452,500</td>
+            </tr>
+            <tr>
+                <td>陈云云</td>
+                <td>办公室主管</td>
+                <td>广州</td>
+                <td>37</td>
+                <td>2008/12/11</td>
+                <td>&yen;136,200</td>
+            </tr>
+            <tr>
+                <td>张禄</td>
+                <td>主任</td>
+                <td>南京</td>
+                <td>65</td>
+                <td>2008/09/26</td>
+                <td>&yen;645,750</td>
+            </tr>
+            <tr>
+                <td>王增凤</td>
+                <td>技术支持工程师</td>
+                <td>苏州</td>
+                <td>64</td>
+                <td>2011/02/03</td>
+                <td>&yen;234,500</td>
+            </tr>
+            <tr>
+                <td>沈捷</td>
+                <td>软件工程师</td>
+                <td>广州</td>
+                <td>38</td>
+                <td>2011/05/03</td>
+                <td>&yen;163,500</td>
+            </tr>
+            <tr>
+                <td>汪化言</td>
+                <td>技术支持工程师</td>
+                <td>上海</td>
+                <td>37</td>
+                <td>2009/08/19</td>
+                <td>&yen;139,575</td>
+            </tr>
+            <tr>
+                <td>杨正机</td>
+                <td>开发者</td>
+                <td>南京</td>
+                <td>61</td>
+                <td>2013/08/11</td>
+                <td>&yen;98,540</td>
+            </tr>
+            <tr>
+                <td>戴向军</td>
+                <td>技术支持工程师</td>
+                <td>深圳</td>
+                <td>47</td>
+                <td>2009/07/07</td>
+                <td>&yen;87,500</td>
+            </tr>
+            <tr>
+                <td>王延芳</td>
+                <td>数据分析工程师</td>
+                <td>苏州</td>
+                <td>64</td>
+                <td>2012/04/09</td>
+                <td>&yen;138,575</td>
+            </tr>
+            <tr>
+                <td>沈健</td>
+                <td>软件工程师</td>
+                <td>南京</td>
+                <td>63</td>
+                <td>2010/01/04</td>
+                <td>&yen;125,250</td>
+            </tr>
+            <tr>
+                <td>刘伟峰</td>
+                <td>软件工程师</td>
+                <td>深圳</td>
+                <td>56</td>
+                <td>2012/06/01</td>
+                <td>&yen;115,000</td>
+            </tr>
+            <tr>
+                <td>陆先生</td>
+                <td>初级Javascript开发者</td>
+                <td>北京</td>
+                <td>43</td>
+                <td>2013/02/01</td>
+                <td>&yen;75,650</td>
+            </tr>
+            <tr>
+                <td>纪虹羽</td>
+                <td>销售代表</td>
+                <td>南京</td>
+                <td>46</td>
+                <td>2011/12/06</td>
+                <td>&yen;145,600</td>
+            </tr>
+            <tr>
+                <td>肖艳</td>
+                <td>大区经理</td>
+                <td>广州</td>
+                <td>47</td>
+                <td>2011/03/21</td>
+                <td>&yen;356,250</td>
+            </tr>
+            <tr>
+                <td>沈国金</td>
+                <td>系统管理员</td>
+                <td>广州</td>
+                <td>21</td>
+                <td>2009/02/27</td>
+                <td>&yen;103,500</td>
+            </tr>
+            <tr>
+                <td>王燕峰</td>
+                <td>开发者</td>
+                <td>深圳</td>
+                <td>30</td>
+                <td>2010/07/14</td>
+                <td>&yen;86,500</td>
+            </tr>
+            <tr>
+                <td>徐若琳</td>
+                <td>大区经理</td>
+                <td>北京</td>
+                <td>51</td>
+                <td>2008/11/13</td>
+                <td>&yen;183,000</td>
+            </tr>
+            <tr>
+                <td>徐成业</td>
+                <td>Javascript开发者</td>
+                <td>苏州</td>
+                <td>29</td>
+                <td>2011/06/27</td>
+                <td>&yen;183,000</td>
+            </tr>
+            <tr>
+                <td>李岸白</td>
+                <td>客户服务</td>
+                <td>南京</td>
+                <td>27</td>
+                <td>2011/01/25</td>
+                <td>&yen;112,000</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="panel nav-tabs-horizontal">
+    <div class="panel-body" data-approve="nav-tabs">
+        <ul class="nav nav-tabs nav-tabs-line" role="tablist">
+            <li role="presentation" class="active">
+                <a data-toggle="tab" href="#DTDataApi" aria-controls="DTDataApi" role="tab" aria-expanded="false">
+                    DataApi
+                </a>
+            </li>
+            <li role="presentation" class="">
+                <a data-toggle="tab" href="#DTJS" aria-controls="DTJS" role="tab" aria-expanded="false">JavaScript</a>
+            </li>
+            <li role="presentation">
+                <a data-toggle="tab" href="#DTHtml" aria-controls="DTHtml" role="tab" aria-expanded="true">HTML</a>
+            </li>
+        </ul>
+        <div class="tab-content margin-top-15">
+            <div class="tab-pane active" id="DTDataApi" role="tabpanel">
+                <pre data-plugin="highlight"><code class="html">data-plugin="dataTable"</code></pre>
+            </div>
+            <div class="tab-pane" id="DTJS" role="tabpanel">
+                <pre data-plugin="highlight"><code class="js">$('#dataTableExample').DataTable($.po('dataTable'));</code></pre>
+            </div>
+            <div class="tab-pane" id="DTHtml" role="tabpanel">
+                <pre data-plugin="highlight"><code class="html">&lt;table class="table table-bordered table-hover dataTable table-striped width-full" data-plugin="dataTable"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+        &lt;th&gt;姓名&lt;/th&gt;
+        &lt;th&gt;职位&lt;/th&gt;
+        &lt;th&gt;工作地点&lt;/th&gt;
+        &lt;th&gt;年龄&lt;/th&gt;
+        &lt;th&gt;入职时间&lt;/th&gt;
+        &lt;th&gt;年薪&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tfoot&gt;
+    &lt;tr&gt;
+        &lt;th&gt;姓名&lt;/th&gt;
+        &lt;th&gt;职位&lt;/th&gt;
+        &lt;th&gt;工作地点&lt;/th&gt;
+        &lt;th&gt;年龄&lt;/th&gt;
+        &lt;th&gt;入职时间&lt;/th&gt;
+        &lt;th&gt;年薪&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/tfoot&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李霞&lt;/td&gt;
+        &lt;td&gt;系统架构师&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;61&lt;/td&gt;
+        &lt;td&gt;2011/04/25&lt;/td&gt;
+        &lt;td&gt;&amp;yen;320,800&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;杜重治&lt;/td&gt;
+        &lt;td&gt;会计&lt;/td&gt;
+        &lt;td&gt;上海&lt;/td&gt;
+        &lt;td&gt;63&lt;/td&gt;
+        &lt;td&gt;2011/07/25&lt;/td&gt;
+        &lt;td&gt;&amp;yen;170,750&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;陈锋&lt;/td&gt;
+        &lt;td&gt;初级开发者&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;66&lt;/td&gt;
+        &lt;td&gt;2009/01/12&lt;/td&gt;
+        &lt;td&gt;&amp;yen;86,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;郑伯宁&lt;/td&gt;
+        &lt;td&gt;高级JavaScript开发者&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;22&lt;/td&gt;
+        &lt;td&gt;2012/03/29&lt;/td&gt;
+        &lt;td&gt;&amp;yen;433,060&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;施华军&lt;/td&gt;
+        &lt;td&gt;会计&lt;/td&gt;
+        &lt;td&gt;上海&lt;/td&gt;
+        &lt;td&gt;33&lt;/td&gt;
+        &lt;td&gt;2008/11/28&lt;/td&gt;
+        &lt;td&gt;&amp;yen;162,700&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;吴书振&lt;/td&gt;
+        &lt;td&gt;集成专家&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;61&lt;/td&gt;
+        &lt;td&gt;2012/12/02&lt;/td&gt;
+        &lt;td&gt;&amp;yen;372,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张宁&lt;/td&gt;
+        &lt;td&gt;销售代表&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;59&lt;/td&gt;
+        &lt;td&gt;2012/08/06&lt;/td&gt;
+        &lt;td&gt;&amp;yen;137,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;马世波&lt;/td&gt;
+        &lt;td&gt;集成专家&lt;/td&gt;
+        &lt;td&gt;上海&lt;/td&gt;
+        &lt;td&gt;55&lt;/td&gt;
+        &lt;td&gt;2010/10/14&lt;/td&gt;
+        &lt;td&gt;&amp;yen;327,900&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张章&lt;/td&gt;
+        &lt;td&gt;Javascript开发者&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;39&lt;/td&gt;
+        &lt;td&gt;2009/09/15&lt;/td&gt;
+        &lt;td&gt;&amp;yen;205,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张竹影&lt;/td&gt;
+        &lt;td&gt;软件工程师&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;23&lt;/td&gt;
+        &lt;td&gt;2008/12/13&lt;/td&gt;
+        &lt;td&gt;&amp;yen;103,600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;韩庆福&lt;/td&gt;
+        &lt;td&gt;办公室主管&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;2008/12/19&lt;/td&gt;
+        &lt;td&gt;&amp;yen;90,560&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;刘勇&lt;/td&gt;
+        &lt;td&gt;客户服务&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;22&lt;/td&gt;
+        &lt;td&gt;2013/03/03&lt;/td&gt;
+        &lt;td&gt;&amp;yen;342,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张忆湫&lt;/td&gt;
+        &lt;td&gt;大区经理&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;36&lt;/td&gt;
+        &lt;td&gt;2008/10/16&lt;/td&gt;
+        &lt;td&gt;&amp;yen;470,600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;尚志兴&lt;/td&gt;
+        &lt;td&gt;高级营销设计师&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;43&lt;/td&gt;
+        &lt;td&gt;2012/12/18&lt;/td&gt;
+        &lt;td&gt;&amp;yen;313,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;杜若芳&lt;/td&gt;
+        &lt;td&gt;大区经理&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;19&lt;/td&gt;
+        &lt;td&gt;2010/03/17&lt;/td&gt;
+        &lt;td&gt;&amp;yen;385,750&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;杨乔松&lt;/td&gt;
+        &lt;td&gt;营销设计师&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;66&lt;/td&gt;
+        &lt;td&gt;2012/11/27&lt;/td&gt;
+        &lt;td&gt;&amp;yen;198,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;闫跃进&lt;/td&gt;
+        &lt;td&gt;CEO&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;64&lt;/td&gt;
+        &lt;td&gt;2010/06/09&lt;/td&gt;
+        &lt;td&gt;&amp;yen;725,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;孙凯&lt;/td&gt;
+        &lt;td&gt;系统管理员&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;59&lt;/td&gt;
+        &lt;td&gt;2009/04/10&lt;/td&gt;
+        &lt;td&gt;&amp;yen;237,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;赖祥校&lt;/td&gt;
+        &lt;td&gt;软件工程师&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;41&lt;/td&gt;
+        &lt;td&gt;2012/10/13&lt;/td&gt;
+        &lt;td&gt;&amp;yen;132,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;郭晖&lt;/td&gt;
+        &lt;td&gt;人事主管&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;35&lt;/td&gt;
+        &lt;td&gt;2012/09/26&lt;/td&gt;
+        &lt;td&gt;&amp;yen;217,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;贺光明&lt;/td&gt;
+        &lt;td&gt;技术主管&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;2011/09/03&lt;/td&gt;
+        &lt;td&gt;&amp;yen;345,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;邓小燕&lt;/td&gt;
+        &lt;td&gt;CMO&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;40&lt;/td&gt;
+        &lt;td&gt;2009/06/25&lt;/td&gt;
+        &lt;td&gt;&amp;yen;675,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;白莉惠&lt;/td&gt;
+        &lt;td&gt;售前支持&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;21&lt;/td&gt;
+        &lt;td&gt;2011/12/12&lt;/td&gt;
+        &lt;td&gt;&amp;yen;106,450&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;杨海霞&lt;/td&gt;
+        &lt;td&gt;销售代表&lt;/td&gt;
+        &lt;td&gt;成都&lt;/td&gt;
+        &lt;td&gt;23&lt;/td&gt;
+        &lt;td&gt;2010/09/20&lt;/td&gt;
+        &lt;td&gt;&amp;yen;85,600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;利旭日&lt;/td&gt;
+        &lt;td&gt;CEO&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;47&lt;/td&gt;
+        &lt;td&gt;2009/10/09&lt;/td&gt;
+        &lt;td&gt;&amp;yen;1,200,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;范永胜&lt;/td&gt;
+        &lt;td&gt;开发者&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;42&lt;/td&gt;
+        &lt;td&gt;2010/12/22&lt;/td&gt;
+        &lt;td&gt;&amp;yen;92,575&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;于怀斌&lt;/td&gt;
+        &lt;td&gt;大区经理&lt;/td&gt;
+        &lt;td&gt;苏州&lt;/td&gt;
+        &lt;td&gt;28&lt;/td&gt;
+        &lt;td&gt;2010/11/14&lt;/td&gt;
+        &lt;td&gt;&amp;yen;357,650&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;赵淑娜&lt;/td&gt;
+        &lt;td&gt;软件工程师&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;28&lt;/td&gt;
+        &lt;td&gt;2011/06/07&lt;/td&gt;
+        &lt;td&gt;&amp;yen;206,850&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张淑杰&lt;/td&gt;
+        &lt;td&gt;COO&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;48&lt;/td&gt;
+        &lt;td&gt;2010/03/11&lt;/td&gt;
+        &lt;td&gt;&amp;yen;850,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;陈俊军&lt;/td&gt;
+        &lt;td&gt;区域销售&lt;/td&gt;
+        &lt;td&gt;上海&lt;/td&gt;
+        &lt;td&gt;20&lt;/td&gt;
+        &lt;td&gt;2011/08/14&lt;/td&gt;
+        &lt;td&gt;&amp;yen;163,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;郭增杰&lt;/td&gt;
+        &lt;td&gt;集成专家&lt;/td&gt;
+        &lt;td&gt;成都&lt;/td&gt;
+        &lt;td&gt;37&lt;/td&gt;
+        &lt;td&gt;2011/06/02&lt;/td&gt;
+        &lt;td&gt;&amp;yen;95,400&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;林云&lt;/td&gt;
+        &lt;td&gt;开发者&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;53&lt;/td&gt;
+        &lt;td&gt;2009/10/22&lt;/td&gt;
+        &lt;td&gt;&amp;yen;114,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;郭述龙&lt;/td&gt;
+        &lt;td&gt;技术作者&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;27&lt;/td&gt;
+        &lt;td&gt;2011/05/07&lt;/td&gt;
+        &lt;td&gt;&amp;yen;145,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;杨军&lt;/td&gt;
+        &lt;td&gt;团队主管&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;22&lt;/td&gt;
+        &lt;td&gt;2008/10/26&lt;/td&gt;
+        &lt;td&gt;&amp;yen;235,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张海龙&lt;/td&gt;
+        &lt;td&gt;售后支持&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;46&lt;/td&gt;
+        &lt;td&gt;2011/03/09&lt;/td&gt;
+        &lt;td&gt;&amp;yen;324,050&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;耿静&lt;/td&gt;
+        &lt;td&gt;营销设计师&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;47&lt;/td&gt;
+        &lt;td&gt;2009/12/09&lt;/td&gt;
+        &lt;td&gt;&amp;yen;85,675&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;刘晋荣&lt;/td&gt;
+        &lt;td&gt;办公室主管&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;51&lt;/td&gt;
+        &lt;td&gt;2008/12/16&lt;/td&gt;
+        &lt;td&gt;&amp;yen;164,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;孙宁&lt;/td&gt;
+        &lt;td&gt;秘书&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;41&lt;/td&gt;
+        &lt;td&gt;2010/02/12&lt;/td&gt;
+        &lt;td&gt;&amp;yen;109,850&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;邢洪锐&lt;/td&gt;
+        &lt;td&gt;财务总监&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;62&lt;/td&gt;
+        &lt;td&gt;2009/02/14&lt;/td&gt;
+        &lt;td&gt;&amp;yen;452,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;陈云云&lt;/td&gt;
+        &lt;td&gt;办公室主管&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;37&lt;/td&gt;
+        &lt;td&gt;2008/12/11&lt;/td&gt;
+        &lt;td&gt;&amp;yen;136,200&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;张禄&lt;/td&gt;
+        &lt;td&gt;主任&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;65&lt;/td&gt;
+        &lt;td&gt;2008/09/26&lt;/td&gt;
+        &lt;td&gt;&amp;yen;645,750&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;王增凤&lt;/td&gt;
+        &lt;td&gt;技术支持工程师&lt;/td&gt;
+        &lt;td&gt;苏州&lt;/td&gt;
+        &lt;td&gt;64&lt;/td&gt;
+        &lt;td&gt;2011/02/03&lt;/td&gt;
+        &lt;td&gt;&amp;yen;234,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;沈捷&lt;/td&gt;
+        &lt;td&gt;软件工程师&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;38&lt;/td&gt;
+        &lt;td&gt;2011/05/03&lt;/td&gt;
+        &lt;td&gt;&amp;yen;163,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;汪化言&lt;/td&gt;
+        &lt;td&gt;技术支持工程师&lt;/td&gt;
+        &lt;td&gt;上海&lt;/td&gt;
+        &lt;td&gt;37&lt;/td&gt;
+        &lt;td&gt;2009/08/19&lt;/td&gt;
+        &lt;td&gt;&amp;yen;139,575&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;杨正机&lt;/td&gt;
+        &lt;td&gt;开发者&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;61&lt;/td&gt;
+        &lt;td&gt;2013/08/11&lt;/td&gt;
+        &lt;td&gt;&amp;yen;98,540&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;戴向军&lt;/td&gt;
+        &lt;td&gt;技术支持工程师&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;47&lt;/td&gt;
+        &lt;td&gt;2009/07/07&lt;/td&gt;
+        &lt;td&gt;&amp;yen;87,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;王延芳&lt;/td&gt;
+        &lt;td&gt;数据分析工程师&lt;/td&gt;
+        &lt;td&gt;苏州&lt;/td&gt;
+        &lt;td&gt;64&lt;/td&gt;
+        &lt;td&gt;2012/04/09&lt;/td&gt;
+        &lt;td&gt;&amp;yen;138,575&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;沈健&lt;/td&gt;
+        &lt;td&gt;软件工程师&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;63&lt;/td&gt;
+        &lt;td&gt;2010/01/04&lt;/td&gt;
+        &lt;td&gt;&amp;yen;125,250&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;刘伟峰&lt;/td&gt;
+        &lt;td&gt;软件工程师&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;56&lt;/td&gt;
+        &lt;td&gt;2012/06/01&lt;/td&gt;
+        &lt;td&gt;&amp;yen;115,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;陆先生&lt;/td&gt;
+        &lt;td&gt;初级Javascript开发者&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;43&lt;/td&gt;
+        &lt;td&gt;2013/02/01&lt;/td&gt;
+        &lt;td&gt;&amp;yen;75,650&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;纪虹羽&lt;/td&gt;
+        &lt;td&gt;销售代表&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;46&lt;/td&gt;
+        &lt;td&gt;2011/12/06&lt;/td&gt;
+        &lt;td&gt;&amp;yen;145,600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;肖艳&lt;/td&gt;
+        &lt;td&gt;大区经理&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;47&lt;/td&gt;
+        &lt;td&gt;2011/03/21&lt;/td&gt;
+        &lt;td&gt;&amp;yen;356,250&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;沈国金&lt;/td&gt;
+        &lt;td&gt;系统管理员&lt;/td&gt;
+        &lt;td&gt;广州&lt;/td&gt;
+        &lt;td&gt;21&lt;/td&gt;
+        &lt;td&gt;2009/02/27&lt;/td&gt;
+        &lt;td&gt;&amp;yen;103,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;王燕峰&lt;/td&gt;
+        &lt;td&gt;开发者&lt;/td&gt;
+        &lt;td&gt;深圳&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;2010/07/14&lt;/td&gt;
+        &lt;td&gt;&amp;yen;86,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;徐若琳&lt;/td&gt;
+        &lt;td&gt;大区经理&lt;/td&gt;
+        &lt;td&gt;北京&lt;/td&gt;
+        &lt;td&gt;51&lt;/td&gt;
+        &lt;td&gt;2008/11/13&lt;/td&gt;
+        &lt;td&gt;&amp;yen;183,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;徐成业&lt;/td&gt;
+        &lt;td&gt;Javascript开发者&lt;/td&gt;
+        &lt;td&gt;苏州&lt;/td&gt;
+        &lt;td&gt;29&lt;/td&gt;
+        &lt;td&gt;2011/06/27&lt;/td&gt;
+        &lt;td&gt;&amp;yen;183,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李岸白&lt;/td&gt;
+        &lt;td&gt;客户服务&lt;/td&gt;
+        &lt;td&gt;南京&lt;/td&gt;
+        &lt;td&gt;27&lt;/td&gt;
+        &lt;td&gt;2011/01/25&lt;/td&gt;
+        &lt;td&gt;&amp;yen;112,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+            </div>
+        </div>
+    </div>
+</div>
+			
+			
+        </div>
+    </div>
+</div>
+
+<script src="../../../demo/1.1.0/vendor/highlight/highlight.pack.min.js"></script>
+<script src="../../../demo/1.1.0/themes/classic/base/js/app.js" data-name="app"></script>
+<script src="../../../demo/1.1.0/js/examples/tables/data-tables/common.js" data-deps="app"></script>
+	
+	
+	
+    </div>
+    <div class="page-loading vertical-align text-center">
+        <div class="page-loader loader-default loader vertical-align-middle" data-type="default"></div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-legal">上海畅控 &copy;
+        <a href="http://www.admui.com" target="_blank">admui.com</a>
+    </div>
+    <div class="site-footer-right">
+        当前版本：v1.1.0
+        <a class="margin-left-5" data-toggle="tooltip" title="升级" href="http://www.admui.com/buy" target="_blank">
+            <i class="icon fa-cloud-upload"></i>
+        </a>
+    </div>
+</footer>
+
+<div class="modal fade" id="admui-mobileView" aria-hidden="true" aria-labelledby="admui-mobileView" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-sidebar modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">在手机上预览本页</h4>
+            </div>
+            <div class="modal-body">
+                <p class="thumbnail">
+                    <img class="img-responsive img-bordered" id="admui-mobileViewQRcode" src="">
+                </p>
+                <p class="margin-top-20 font-size-12">
+                    <i class="icon wb-bell" aria-hidden="true"></i> 您可以用手机APP(如微信、支付宝等)的扫码功能扫码下面的二维码，在手机上查看本页显示效果。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 布局 -->
+<script src="../../../demo/1.1.0/themes/classic/base/js/sections/menu.js"></script>
+<script src="../../../demo/1.1.0/themes/classic/base/js/sections/media-menu.js"></script>
+<script src="../../../demo/1.1.0/themes/classic/base/js/sections/content-tabs.js"></script>
+
+<!-- 插件 -->
+<script src="../../../demo/1.1.0/vendor/jquery-pjax/jquery.pjax.min.js"></script>
+<script src="../../../demo/1.1.0/themes/classic/global/js/plugins/responsive-tabs.js"></script>
+<script src="../../../demo/1.1.0/vendor/ashoverscroll/jquery-asHoverScroll.min.js"></script>
+<script src="../../../demo/1.1.0/vendor/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../../../demo/1.1.0/vendor/screenfull/screenfull.min.js"></script>
+
+<!-- 客服组件 -->
+<script src="../../../demo/1.1.0/js/main.js?2&_=1503577068472" id="kf5-provide-supportBox" kf5-domain="admui.kf5.com"></script>
+
+<!-- 消息通知 -->
+<!--<script src="../../../demo/1.1.0/js/notify-msg.js"></script>-->
+</body>
+</html>
+

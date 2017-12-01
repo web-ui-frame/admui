@@ -1,0 +1,3035 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="zh-cn">
+
+<head>
+    <title>主页</title>
+    
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="keywords" content="admui,admui官网,admui下载,admui框架,通用后台管理系统,后台框架,ui框架" />
+<meta name="description" content="Admui在线演示系统，Admui是一个基于最新Web技术的企业级通用管理系统快速开发框架，可以帮助企业极大的提高工作效率，节省开发成本，提升品牌形象。" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 移动设备 viewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui">
+<meta name="author" content="admui.com">
+<!-- 360浏览器默认使用Webkit内核 -->
+<meta name="renderer" content="webkit">
+<!-- 禁止百度SiteAPP转码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<!-- Chrome浏览器添加桌面快捷方式（安卓） -->
+<link rel="icon" type="image/png" href="../../demo/1.1.0/images/favicon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Safari浏览器添加到主屏幕（IOS） -->
+<link rel="icon" sizes="192x192" href="../../demo/1.1.0/images/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Admui">
+<!-- Win8标题栏及ICON图标 -->
+<link rel="apple-touch-icon-precomposed" href="../../demo/1.1.0/images/apple-touch-icon.png">
+<meta name="msapplication-TileImage" content="http://cdn.admui.com/demo/1.1.0/images/app-icon72x72@2x.png">
+<meta name="msapplication-TileColor" content="#62a8ea">
+<!-- 样式 -->
+<link rel="stylesheet" href="../../demo/1.1.0/themes/classic/base/css/site.css" id="siteStyle">
+<!--[if lte IE 9]>
+<meta http-equiv="refresh" content="0; url='http://www.admui.com/ie/'" />
+<![endif]-->
+<!--[if lt IE 10]>
+<script src="../../demo/1.1.0/vendor/media-match/media.match.min.js"></script>
+<script src="../../demo/1.1.0/vendor/respond/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+    
+    <!-- 图标 CSS-->
+    <link rel="stylesheet" href="../../demo/1.1.0/fonts/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="../../demo/1.1.0/fonts/web-icons/web-icons.css">
+    
+    <!-- 插件 CSS -->
+    <link rel="stylesheet" href="../../demo/1.1.0/vendor/animsition/animsition.css">
+    <link rel="stylesheet" href="../../demo/1.1.0/vendor/toastr/toastr.css">
+    <link rel="stylesheet" href="../../demo/1.1.0/css/demo.css">
+    
+    <!-- 插件 -->
+    <script src="../../demo/1.1.0/vendor/jquery/jquery.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/modernizr/modernizr.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/breakpoints/breakpoints.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/artTemplate/template.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/toastr/toastr.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/bootbox/bootbox.min.js"></script>
+    
+    <!-- 核心  -->
+    <script src="../../demo/1.1.0/themes/classic/global/js/core.js"></script>
+    <script src="../../demo/1.1.0/themes/classic/base/js/site.js"></script>
+    <script src="../../demo/1.1.0/themes/classic/global/js/configs/site-configs.js"></script>
+    <script src="../../demo/1.1.0/themes/classic/global/js/components.js"></script>
+    
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c9dd85291ea88dcf64671a7dfa65e0ef";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	
+    <script>
+        Breakpoints();
+    </script>
+</head>
+
+<body class="site-contabs-open site-menubar-unfold ">
+
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-inverse " role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided" data-toggle="menubar">
+            <span class="sr-only">切换菜单</span> <span class="hamburger-bar"></span>
+        </button>
+        <button type="button" class="navbar-toggle collapsed" data-target="#admui-navbarCollapse" data-toggle="collapse">
+            <i class="icon wb-more-horizontal" aria-hidden="true"></i>
+        </button>
+        <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+            <img class="navbar-brand-logo visible-lg visible-xs navbar-logo" src="../../demo/1.1.0/images/logo-white.svg" title="Admui">
+            <img class="navbar-brand-logo hidden-xs hidden-lg navbar-logo-mini" src="../../demo/1.1.0/images/logo-white-min.svg" title="Admui">
+        </div>
+    </div>
+    <div class="navbar-container container-fluid">
+        <div class="collapse navbar-collapse navbar-collapse-toolbar" id="admui-navbarCollapse">
+            <ul class="nav navbar-toolbar navbar-left">
+                <li class="hidden-float">
+                    <a data-toggle="menubar" class="hidden-float" href="javascript:;" role="button" id="admui-toggleMenubar">
+                        <i class="icon hamburger hamburger-arrow-left"> 
+                      		<span class="sr-only">切换目录</span>
+                            <span class="hamburger-bar"></span> 
+                        </i>
+                    </a>
+                </li>
+                <li class="navbar-menu nav-tabs-horizontal nav-tabs-animate is-load" id="admui-navMenu">
+                    <ul class="nav navbar-toolbar nav-tabs" role="tablist">
+                        <!-- 顶部菜单 -->
+                    	
+                        <li role="presentation" class="active">
+                            <a data-toggle="tab" href="#admui-navTabsItem-1" aria-controls="admui-navTabsItem-1" role="tab" aria-expanded="false">
+                                <i class="icon wb-library"></i> <span>UI 示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-2" aria-controls="admui-navTabsItem-2" role="tab" aria-expanded="false">
+                                <i class="icon wb-desktop"></i> <span>页面示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-3" aria-controls="admui-navTabsItem-3" role="tab" aria-expanded="false">
+                                <i class="icon wb-table"></i> <span>表格示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-4" aria-controls="admui-navTabsItem-4" role="tab" aria-expanded="false">
+                                <i class="icon wb-order"></i> <span>表单示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-5" aria-controls="admui-navTabsItem-5" role="tab" aria-expanded="false">
+                                <i class="icon wb-pie-chart"></i> <span>统计图表</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-6" aria-controls="admui-navTabsItem-6" role="tab" aria-expanded="false">
+                                <i class="icon fa-bars"></i> <span>菜单示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-7" aria-controls="admui-navTabsItem-7" role="tab" aria-expanded="false">
+                                <i class="icon wb-settings"></i> <span>系统管理</span>
+                            </a>
+                        </li>
+                        
+                        <li class="dropdown" id="admui-navbarSubMenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-animation="slide-bottom" aria-expanded="true" role="button">
+                                <i class="icon wb-more-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="no-menu" role="presentation">
+                                    <a href="/sitemap.html" target="_blank" role="menuitem" data-pjax>
+                                        <i class="icon wb-list-numbered"></i><span>网站地图</span>
+                                    </a>
+                                </li>
+                                <li class="no-menu" role="presentation">
+                                    <a href="/system/menu.html" target="_blank" role="menuitem" data-pjax>
+                                        <i class="icon wb-wrench"></i><span>菜单管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+                <li class="dropdown" id="admui-navbarMessage">
+                    <a data-toggle="dropdown" href="javascript:;" class="msg-btn" aria-expanded="false" data-animation="scale-up" role="button">
+                        <i class="icon wb-bell" aria-hidden="true"></i> 
+                        <span class="badge badge-danger up msg-num"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media" role="menu">
+                        <li class="dropdown-menu-header" role="presentation">
+                            <h5>最新消息</h5>
+                            <span class="label label-round label-danger"></span>
+                        </li>
+                        <li class="list-group" role="presentation">
+	                        <div class="navbar-message-content" id="admui-messageContent" data-height="220px" data-plugin="slimScroll"></div>
+	                      	<script type="text/html" id="admui-messageTpl">
+										{{if msgList.length < 1}}
+										<p class="text-center height-200 vertical-align">
+	                                		<small class="vertical-align-middle opacity-four">没有新消息</small>
+	                            		</p>
+										{{else}}
+                                        {{each msgList}}
+                                        <a class="list-group-item" href="#"  data-message-id="{{$value.messageId}}" data-title="{{$value.title}}" data-content="{{$value.content}}" role="menuitem">
+                                            <div class="media">
+                                                <div class="media-left padding-right-10">
+                                                    <i class="icon {{$value.type | iconType}} white icon-circle" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="media-heading">{{$value.title}}</h6>
+                                                    <time class="media-meta" datetime="{{$value.sendTime}}">
+                                                        {{$value.sendTime | timeMsg}}
+                                                    </time>
+                                                </div>
+                                            </div>
+                                        </a>{{/each}}
+										{{/if}}
+                                 </script>
+                        </li>
+                        <li class="dropdown-menu-footer" role="presentation">
+                            <a href="/system/account/message.html" target="_blank" data-pjax>
+                            	<i class="icon fa-navicon"></i> 所有消息
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hidden-xs" id="admui-navbarDisplay" data-toggle="tooltip" data-placement="bottom" title="设置主题与布局等">
+                    <a class="icon wb-layout" href="/system/settings/display.html" target="_blank" data-pjax>
+                        <span class="sr-only">主题与布局</span>
+                    </a>
+                </li>
+                <li class="hidden-xs" id="admui-QRcode" data-toggle="tooltip" data-placement="bottom" title="在手机上预览本页">
+                    <a class="icon wb-mobile" href="#" data-toggle="modal" data-target="#admui-mobileView">
+                        <span class="sr-only">在手机上预览</span></a>
+                </li>
+                <li class="hidden-xs" id="admui-demo-app" data-toggle="tooltip" data-placement="bottom" title="下载桌面版">
+                    <a class="icon wb-download dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" role="button">
+                        <span class="sr-only">下载桌面版</span></a>
+                    <ul class="dropdown-menu dropdown-menu-success bullet dropdown-menu-right" aria-labelledby="demoApp" role="menu">
+                        <li role="presentation">
+                            <a href="http://dl.admui.com/app/win/admui-demo.zip" role="menuitem"><i class="icon fa-windows"></i> Windows 版</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="http://dl.admui.com/app/mac/admui-demo.zip" role="menuitem"><i class="icon fa-apple"></i> MacOS 版</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="open-kf" id="admui-service" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="在线咨询">
+                    <a class="icon wb-user" href="#" role="button">
+                        <span class="sr-only">在线咨询</span></a>
+                </li>
+                <li class="hidden-xs" id="admui-navbarFullscreen" data-toggle="tooltip" data-placement="bottom" title="全屏">
+                    <a class="icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
+                        <span class="sr-only">全屏</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icon fa-sign-out" id="admui-signOut" data-ctx="" data-user="9" href="/system/login.html" role="button">
+                    	<span class="sr-only">退出</span>
+                   	</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="site-menubar site-menubar-dark">
+    <div class="site-menubar-body">
+        <div class="tab-content height-full" id="admui-navTabs">
+        	<!-- 一级菜单 -->
+            
+            <div class="tab-pane animation-fade height-full active" id="admui-navTabsItem-1" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">UI 示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-laptop" aria-hidden="true"></i><span class="site-menu-title">布局</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">栅格</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/grids.html" target="_blank">
+	                                                <span class="site-menu-title">基本栅格</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/layout-grid.html" target="_blank">
+	                                                <span class="site-menu-title">布局栅格</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">标题栏</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/headers.html" target="_blank">
+	                                                <span class="site-menu-title">普通</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/bordered-header.html" target="_blank">
+	                                                <span class="site-menu-title">带边框</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/panel-transition.html" target="_blank">
+                                    	<span class="site-menu-title">面板动画</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/boxed.html" target="_blank">
+                                    	<span class="site-menu-title">盒式布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/page-aside.html" target="_blank">
+                                    	<span class="site-menu-title">侧边栏</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/two-columns.html" target="_blank">
+                                    	<span class="site-menu-title">两栏式布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-cube" aria-hidden="true"></i><span class="site-menu-title">基本</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">面板</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/structure.html" target="_blank">
+	                                                <span class="site-menu-title">面板结构</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/actions.html" target="_blank">
+	                                                <span class="site-menu-title">面板操作</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/portlets.html" target="_blank">
+	                                                <span class="site-menu-title">面板组件</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/buttons.html" target="_blank">
+                                    	<span class="site-menu-title">按钮</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/icons.html" target="_blank">
+                                    	<span class="site-menu-title">矢量图标</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/dropdowns.html" target="_blank">
+                                    	<span class="site-menu-title">下拉菜单</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/list.html" target="_blank">
+                                    	<span class="site-menu-title">列表组</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/tooltip-popover.html" target="_blank">
+                                    	<span class="site-menu-title">气泡提示 & 弹出框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/modals.html" target="_blank">
+                                    	<span class="site-menu-title">模态框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/tabs-accordions.html" target="_blank">
+                                    	<span class="site-menu-title">选项卡 & 折叠面板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/images.html" target="_blank">
+                                    	<span class="site-menu-title">图片</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/badges-labels.html" target="_blank">
+                                    	<span class="site-menu-title">徽章 & 标签</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/carousel.html" target="_blank">
+                                    	<span class="site-menu-title">轮播组件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/typography.html" target="_blank">
+                                    	<span class="site-menu-title">排版</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/progress-bars.html" target="_blank">
+                                    	<span class="site-menu-title">进度条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/colors.html" target="_blank">
+                                    	<span class="site-menu-title">配色方案</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/utilities.html" target="_blank">
+                                    	<span class="site-menu-title">辅助类</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-cubes" aria-hidden="true"></i><span class="site-menu-title">进阶</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/tour.html" target="_blank">
+                                    	<span class="site-menu-title">新手指引</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/animation.html" target="_blank">
+                                    	<span class="site-menu-title">动画</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/highlight.html" target="_blank">
+                                    	<span class="site-menu-title">代码高亮</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/lightbox.html" target="_blank">
+                                    	<span class="site-menu-title">灯箱</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/scrollbar.html" target="_blank">
+                                    	<span class="site-menu-title">滚动条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/rating.html" target="_blank">
+                                    	<span class="site-menu-title">评分</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/context-menu.html" target="_blank">
+                                    	<span class="site-menu-title">右键菜单</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/alertify.html" target="_blank">
+                                    	<span class="site-menu-title">Alertify弹框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/masonry.html" target="_blank">
+                                    	<span class="site-menu-title">瀑布流布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">树形控件</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/advanced/tree/jstree.html" target="_blank">
+	                                                <span class="site-menu-title">JsTree</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/advanced/tree/treeview.html" target="_blank">
+	                                                <span class="site-menu-title">Treeview</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/toastr.html" target="_blank">
+                                    	<span class="site-menu-title">Toaster 通知</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/sortable-nestable.html" target="_blank">
+                                    	<span class="site-menu-title">拖动排序</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/bootbox-sweetalert.html" target="_blank">
+                                    	<span class="site-menu-title">弹层组件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-plug" aria-hidden="true"></i><span class="site-menu-title">组件</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/alerts.html" target="_blank">
+                                    	<span class="site-menu-title">警告框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/ribbon.html" target="_blank">
+                                    	<span class="site-menu-title">彩带</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/pricing-tables.html" target="_blank">
+                                    	<span class="site-menu-title">价目表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/overlay.html" target="_blank">
+                                    	<span class="site-menu-title">遮罩</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/cover.html" target="_blank">
+                                    	<span class="site-menu-title">覆盖层</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">时间轴</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/structure/timeline/simple.html" target="_blank">
+	                                                <span class="site-menu-title">简单时间轴</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/structure/timeline/icons.html" target="_blank">
+	                                                <span class="site-menu-title">图标时间轴</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/step.html" target="_blank">
+                                    	<span class="site-menu-title">步骤条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/comments.html" target="_blank">
+                                    	<span class="site-menu-title">评论</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/media.html" target="_blank">
+                                    	<span class="site-menu-title">媒体</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/chat.html" target="_blank">
+                                    	<span class="site-menu-title">聊天窗口</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/testimonials.html" target="_blank">
+                                    	<span class="site-menu-title">客户评价</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/nav.html" target="_blank">
+                                    	<span class="site-menu-title">导航</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/navbars.html" target="_blank">
+                                    	<span class="site-menu-title">导航条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/blockquotes.html" target="_blank">
+                                    	<span class="site-menu-title">引用</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/pagination.html" target="_blank">
+                                    	<span class="site-menu-title">分页</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/breadcrumbs.html" target="_blank">
+                                    	<span class="site-menu-title">包屑导航</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-puzzle-piece" aria-hidden="true"></i><span class="site-menu-title">小工具</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/statistics.html" target="_blank">
+                                    	<span class="site-menu-title">统计</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/data.html" target="_blank">
+                                    	<span class="site-menu-title">数据</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/blog.html" target="_blank">
+                                    	<span class="site-menu-title">博客</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/chart.html" target="_blank">
+                                    	<span class="site-menu-title">图表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/social.html" target="_blank">
+                                    	<span class="site-menu-title">社交</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/weather.html" target="_blank">
+                                    	<span class="site-menu-title">天气</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-2" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">页面示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-home" aria-hidden="true"></i><span class="site-menu-title">首页示例</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/index-v1.html" target="_blank">
+                                    	<span class="site-menu-title">首页示例 01</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/index-v2.html" target="_blank">
+                                    	<span class="site-menu-title">首页示例 02</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/ecommerce.html" target="_blank">
+                                    	<span class="site-menu-title">电商网站型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/analytics.html" target="_blank">
+                                    	<span class="site-menu-title">数据统计型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/team.html" target="_blank">
+                                    	<span class="site-menu-title">团队协作型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-files-o" aria-hidden="true"></i><span class="site-menu-title">常用页面</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/blank.html" target="_blank">
+                                    	<span class="site-menu-title">空白页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/faq.html" target="_blank">
+                                    	<span class="site-menu-title">帮助文档</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/gallery-grid.html" target="_blank">
+                                    	<span class="site-menu-title">相册</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/search-result.html" target="_blank">
+                                    	<span class="site-menu-title">搜索</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/user.html" target="_blank">
+                                    	<span class="site-menu-title">客户列表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/email.html" target="_blank">
+                                    	<span class="site-menu-title">邮件模板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/code-editor.html" target="_blank">
+                                    	<span class="site-menu-title">代码编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/error.html" target="_blank">
+                                    	<span class="site-menu-title">错误页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/noauth.html" target="_blank">
+                                    	<span class="site-menu-title">没有权限</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/maintenance.html" target="_blank">
+                                    	<span class="site-menu-title">网站维护中</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/locked.html" target="_blank">
+                                    	<span class="site-menu-title">锁屏页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-group" aria-hidden="true"></i><span class="site-menu-title">团队协作</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/calendar.html" target="_blank">
+                                    	<span class="site-menu-title">日历</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/notebook.html" target="_blank">
+                                    	<span class="site-menu-title">笔记</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/taskboard.html" target="_blank">
+                                    	<span class="site-menu-title">任务看板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">知识库</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/articles.html" target="_blank">
+	                                                <span class="site-menu-title">列表</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/categories.html" target="_blank">
+	                                                <span class="site-menu-title">分类</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/article.html" target="_blank">
+	                                                <span class="site-menu-title">详情</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/forum.html" target="_blank">
+                                    	<span class="site-menu-title">论坛</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/message.html" target="_blank">
+                                    	<span class="site-menu-title">即时通讯</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/mailbox.html" target="_blank">
+                                    	<span class="site-menu-title">邮箱</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/media.html" target="_blank">
+                                    	<span class="site-menu-title">文件管理</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">项目</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/projects.html" target="_blank">
+	                                                <span class="site-menu-title">项目列表 01</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/work.html" target="_blank">
+	                                                <span class="site-menu-title">项目列表 02</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-3" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">表格示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/tables/basic/index.html" target="_blank">
+                            	<i class="site-menu-icon fa-table" aria-hidden="true"></i><span class="site-menu-title">基本表格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/tables/treegrid/index.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">树形表格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-list-alt" aria-hidden="true"></i><span class="site-menu-title">DataTables</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/basic-init/index.html" target="_blank">
+                                    	<span class="site-menu-title">基本初始化</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/advanced-init/index.html" target="_blank">
+                                    	<span class="site-menu-title">高级初始化</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/data-sources/index.html" target="_blank">
+                                    	<span class="site-menu-title">数据源</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/api/index.html" target="_blank">
+                                    	<span class="site-menu-title">API</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/ajax/index.html" target="_blank">
+                                    	<span class="site-menu-title">AJAX</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/server-side/index.html" target="_blank">
+                                    	<span class="site-menu-title">服务器模式</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/plug-ins/index.html" target="_blank">
+                                    	<span class="site-menu-title">插件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/others/index.html" target="_blank">
+                                    	<span class="site-menu-title">其他</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-4" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">表单相关</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/general.html" target="_blank">
+                            	<i class="site-menu-icon fa-circle-o" aria-hidden="true"></i><span class="site-menu-title">基本表单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/material.html" target="_blank">
+                            	<i class="site-menu-icon fa-google" aria-hidden="true"></i><span class="site-menu-title">质感风格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/advanced.html" target="_blank">
+                            	<i class="site-menu-icon fa-toggle-off" aria-hidden="true"></i><span class="site-menu-title">高级表单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/layouts.html" target="_blank">
+                            	<i class="site-menu-icon fa-indent" aria-hidden="true"></i><span class="site-menu-title">表单布局</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/wizard.html" target="_blank">
+                            	<i class="site-menu-icon fa-arrow-right" aria-hidden="true"></i><span class="site-menu-title">表单向导</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/validation.html" target="_blank">
+                            	<i class="site-menu-icon fa-check-square-o" aria-hidden="true"></i><span class="site-menu-title">表单验证</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/masks.html" target="_blank">
+                            	<i class="site-menu-icon fa-at" aria-hidden="true"></i><span class="site-menu-title">格式预设</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/editable.html" target="_blank">
+                            	<i class="site-menu-icon fa-edit" aria-hidden="true"></i><span class="site-menu-title">表单编辑</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-list-alt" aria-hidden="true"></i><span class="site-menu-title">编辑器</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/summernote.html" target="_blank">
+                                    	<span class="site-menu-title">文本编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/markdown.html" target="_blank">
+                                    	<span class="site-menu-title">Markdown编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/ace.html" target="_blank">
+                                    	<span class="site-menu-title">代码编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/image-cropping.html" target="_blank">
+                            	<i class="site-menu-icon fa-cut" aria-hidden="true"></i><span class="site-menu-title">图片裁剪</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/dropify.html" target="_blank">
+                            	<i class="site-menu-icon fa-cloud-upload" aria-hidden="true"></i><span class="site-menu-title">文件上传</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-5" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">统计图表</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-pie-chart" aria-hidden="true"></i><span class="site-menu-title">简单图表</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/chartjs.html" target="_blank">
+                                    	<span class="site-menu-title">Chart.js</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/gauges.html" target="_blank">
+                                    	<span class="site-menu-title">Gauges</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/flot.html" target="_blank">
+                                    	<span class="site-menu-title">Flot</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/peity.html" target="_blank">
+                                    	<span class="site-menu-title">Peity</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/sparkline.html" target="_blank">
+                                    	<span class="site-menu-title">Sparkline</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/morris.html" target="_blank">
+                                    	<span class="site-menu-title">Morris</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/chartist.html" target="_blank">
+                                    	<span class="site-menu-title">Chartist</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/rickshaw.html" target="_blank">
+                                    	<span class="site-menu-title">Rickshaw</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/c3.html" target="_blank">
+                                    	<span class="site-menu-title">C3</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/charts/echarts.html" target="_blank">
+                            	<i class="site-menu-icon fa-area-chart" aria-hidden="true"></i><span class="site-menu-title">百度 Echarts</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-6" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">菜单演示 01</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">一级菜单</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/menu.html" target="_blank">
+                                    	<span class="site-menu-title">二级菜单 01</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/menu.html" target="_blank">
+                                    	<span class="site-menu-title">二级菜单 02</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">二级菜单 03</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 001</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 002</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 003</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="#" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">独立菜单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<li class="site-menu-category">菜单演示 02</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/menu.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">独立菜单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-7" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">系统信息</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/menu.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">菜单管理</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/user.html" target="_blank">
+                            	<i class="site-menu-icon fa-street-view" aria-hidden="true"></i><span class="site-menu-title">用户管理</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/log.html" target="_blank">
+                            	<i class="site-menu-icon fa-file-text-o" aria-hidden="true"></i><span class="site-menu-title">日志信息</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/blacklist.html" target="_blank">
+                            	<i class="site-menu-icon fa-shield" aria-hidden="true"></i><span class="site-menu-title">黑名单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-gear" aria-hidden="true"></i><span class="site-menu-title">系统设置</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/system/settings/display.html" target="_blank">
+                                    	<span class="site-menu-title">显示设置</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/system/settings/log.html" target="_blank">
+                                    	<span class="site-menu-title">日志设置</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<li class="site-menu-category">我的账户</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/account.html" target="_blank">
+                            	<i class="site-menu-icon fa-key" aria-hidden="true"></i><span class="site-menu-title">账户信息</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 一级菜单 -->
+        </div>
+    </div>
+</nav>
+<nav class="site-contabs" id="admui-siteConTabs">
+    <button type="button" class="btn btn-icon btn-default pull-left hide">
+        <i class="icon fa-angle-double-left"></i>
+    </button>
+    <div class="contabs-scroll pull-left">
+        <ul class="nav con-tabs">
+            <li class="active">
+                <a data-pjax href="/home.html" rel="contents"><span>首页</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-group pull-right">
+        <button type="button" class="btn btn-icon btn-default hide">
+            <i class="icon fa-angle-double-right"></i>
+        </button>
+        <button type="button" class="btn btn-default dropdown-toggle btn-outline" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span> <span class="sr-only">切换菜单</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="conTabsDropdown" role="menu">
+            <li class="reload-page" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-reload"></i> 刷新当前</a>
+            </li>
+            <li class="close-other" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-close"></i> 关闭其他</a>
+            </li>
+            <li class="close-all" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-power"></i> 关闭所有</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="site-page">
+    <div class="page-container" id="admui-pageContent">
+    
+    
+	
+
+
+
+
+
+
+<title>模态框</title>
+
+<link rel="stylesheet" href="../../demo/1.1.0/css/examples/components/basic/modals.css">
+
+<div class="page animation-fade">
+    <div class="page-header">
+        <h1 class="page-title">模态框</h1>
+        <div class="page-header-actions">
+            <button type="button" class="btn btn-icon btn-inverse btn-round">
+                <i class="icon wb-pencil" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="btn btn-icon btn-inverse btn-round">
+                <i class="icon wb-refresh" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="btn btn-icon btn-inverse btn-round">
+                <i class="icon wb-settings" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+    <div class="page-content">
+
+        <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">模态框样式</h3>
+            </div>
+            <div class="panel-body container-fluid">
+                <div class="row row-lg">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="example-wrap">
+                            <div class="example example-modal">
+
+                                <div class="modal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                                <h4 class="modal-title">模态框标题</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    大众汽车公司周二宣布，将向北美商用车及发动机巨头纳威司达国际公司注资2.56亿美元，收购该公司16.6%的股权。根据协议，大众将为每股纳威司达股票支付15.76美元，较该股上周五收盘价溢价12%。大众还将获得纳威司达董事会的两个席位。纳威司达表示，预计此项交易将使其在5年内每年节约成本2亿美元。</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default margin-top-5" data-dismiss="modal">
+                                                    关闭
+                                                </button>
+                                                <button type="button" class="btn btn-primary margin-top-5">保存</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">基本</h4>
+                            <p>
+                                模态框是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等模态框很容易实现，但请谨慎使用，因为模态框会阻断用户与页面的交互。您可以使用以下在模态框上使用以下动画效果。</p>
+                            <div class="example example-buttons">
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftyFadeScale" data-toggle="modal" type="button">
+                                    Fade in &amp; Scale
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftySlideFromRight" data-toggle="modal" type="button">
+                                    Slide from right
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftySlideFromBottom" data-toggle="modal" type="button">
+                                    Slide from bottom
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftyNewspaper" data-toggle="modal" type="button">
+                                    Newspaper
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftyFall" data-toggle="modal" type="button">
+                                    Fall
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftySideFall" data-toggle="modal" type="button">
+                                    Slide Fall
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftyFlipHorizontal" data-toggle="modal" type="button">
+                                    3D Flip horizontal
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftyFlipVertical" data-toggle="modal" type="button">
+                                    3D Flip vertical
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNifty3dSign" data-toggle="modal" type="button">
+                                    3D Sign
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftySuperScaled" data-toggle="modal" type="button">
+                                    Super Scalled
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNiftyJustMe" data-toggle="modal" type="button">
+                                    Just Me
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNifty3dSlit" data-toggle="modal" type="button">
+                                    3D Slit
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNifty3dRotateBottom" data-toggle="modal" type="button">
+                                    3D Rotate Bottom
+                                </button>
+                                <button class="btn btn-outline btn-default" data-target="#exampleNifty3dRotateInLeft" data-toggle="modal" type="button">
+                                    3D Rotate In Left
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-lg">
+                    <div class="col-lg-12">
+                        <div class="example-wrap">
+                            <h4 class="example-title">显示位置</h4>
+                            <div class="row row-lg">
+                                <div class="col-lg-3 col-sm-6">
+
+                                    <div class="example-wrap">
+                                        <h4 class="example-title">顶部</h4>
+                                        <div class="example">
+                                            <div class="example-well height-250 example-modal-top">
+                                                <img class="center" src="../../demo/1.1.0/images/modal/modal-position.png" alt="...">
+                                            </div>
+                                            <button class="btn btn-primary" data-target="#examplePositionTop" data-toggle="modal" type="button">
+                                                显示
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+
+                                    <div class="example-wrap">
+                                        <h4 class="example-title">居中</h4>
+                                        <div class="example">
+                                            <div class="example-well height-250">
+                                                <img class="center" src="../../demo/1.1.0/images/modal/modal-position.png" alt="...">
+                                            </div>
+                                            <button class="btn btn-primary" data-target="#examplePositionCenter" data-toggle="modal" type="button">
+                                                显示
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+
+                                    <div class="example-wrap">
+                                        <h4 class="example-title">底部</h4>
+                                        <div class="example">
+                                            <div class="example-well height-250 example-modal-bottom">
+                                                <img class="center" src="../../demo/1.1.0/images/modal/modal-position.png" alt="...">
+                                            </div>
+                                            <button class="btn btn-primary" data-target="#examplePositionBottom" data-toggle="modal" type="button">
+                                                显示
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+
+                                    <div class="example-wrap">
+                                        <h4 class="example-title">侧边栏</h4>
+                                        <div class="example">
+                                            <div class="example-well height-250 example-modal-sidebar">
+                                                <img class="center" src="../../demo/1.1.0/images/modal/modal-position-sidebar.png" alt="...">
+                                            </div>
+                                            <button class="btn btn-primary" data-target="#examplePositionSidebar" data-toggle="modal" type="button">
+                                                显示
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-lg">
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">表单模态框</h4>
+                            <div class="example">
+                                <div class="example-well height-350">
+                                    <img class="center" src="../../demo/1.1.0/images/modal/form-modal.png" alt="...">
+                                </div>
+                                <button class="btn btn-primary" data-target="#exampleFormModal" data-toggle="modal" type="button">
+                                    显示
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">大小</h4>
+                            <div class="example">
+                                <div class="example-well height-350">
+                                    <img class="center" src="../../demo/1.1.0/images/modal/size-modal.png" alt="...">
+                                </div>
+                                <div class="example-buttons">
+                                    <button type="button" class="btn btn-primary" data-target=".example-modal-lg" data-toggle="modal">
+                                        大尺寸
+                                    </button>
+                                    <button type="button" class="btn btn-primary" data-target=".example-modal-sm" data-toggle="modal">
+                                        小尺寸
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="clearfix visible-lg-block"></div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">在模态框中显示选项卡</h4>
+                            <div class="example">
+                                <div class="example-well height-350">
+                                    <img class="center" src="../../demo/1.1.0/images/modal/tab-modal.png" alt="...">
+                                </div>
+                                <button class="btn btn-primary" data-target="#exampleTabs" data-toggle="modal" type="button">
+                                    显示
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="clearfix visible-md-block"></div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">在模态框中显示折叠面板</h4>
+                            <div class="example">
+                                <div class="example-well height-350">
+                                    <img class="center" src="../../demo/1.1.0/images/modal/accordion-modal.png" alt="...">
+                                </div>
+                                <button class="btn btn-primary" data-target="#exampleAccrodionModal" data-toggle="modal" type="button">
+                                    显示
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">在模态框中显示栅格</h4>
+                            <div class="example">
+                                <div class="example-well height-350">
+                                    <img class="center" src="../../demo/1.1.0/images/modal/grid-modal.png" alt="...">
+                                </div>
+                                <button class="btn btn-primary" data-target="#exampleGrid" data-toggle="modal" type="button">
+                                    显示
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap margin-md-0">
+                            <h4 class="example-title">不同样式</h4>
+                            <div class="example">
+                                <div class="example-well height-350">
+                                    <img class="center" src="../../demo/1.1.0/images/modal/style-modal.png" alt="...">
+                                </div>
+                                <div class="color-selector-wrap clearfix">
+                                    <p class="padding-top-5 margin-right-20">选择不同颜色：</p>
+                                    <ul class="color-selector">
+                                        <li class="bg-primary-600">
+                                            <input type="radio" id="inputStylePrimary" name="colorChosen" data-target="#exampleModalPrimary" data-toggle="modal">
+                                            <label for="inputStylePrimary"></label>
+                                        </li>
+                                        <li class="bg-green-600">
+                                            <input type="radio" id="inputStyleSuccess" name="colorChosen" data-target="#exampleModalSuccess" data-toggle="modal">
+                                            <label for="inputStyleSuccess"></label>
+                                        </li>
+                                        <li class="bg-red-600">
+                                            <input type="radio" id="inputStyleDanger" name="colorChosen" data-target="#exampleModalDanger" data-toggle="modal">
+                                            <label for="inputStyleDanger"></label>
+                                        </li>
+                                        <li class="bg-orange-600">
+                                            <input type="radio" id="inputStyleWarning" name="colorChosen" data-target="#exampleModalWarning" data-toggle="modal">
+                                            <label for="inputStyleWarning"></label>
+                                        </li>
+                                        <li class="bg-cyan-600">
+                                            <input type="radio" id="inputStyleInfo" name="colorChosen" data-target="#exampleModalInfo" data-toggle="modal">
+                                            <label for="inputStyleInfo"></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="example-wrap">
+                            <h4 class="example-title">全屏</h4>
+                            <div class="example">
+                                <div class="example-well height-350" style="background-color: #fff">
+                                    <img class="center width-full height-full" src="../../demo/1.1.0/images/modal/fillin-modal.png" alt="...">
+                                </div>
+                                <button class="btn btn-primary" data-target="#exampleFillIn" data-toggle="modal" type="button">
+                                    显示
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-fade-in-scale-up" id="exampleNiftyFadeScale" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-slide-in-right" id="exampleNiftySlideFromRight" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-slide-from-bottom" id="exampleNiftySlideFromBottom" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-newspaper" id="exampleNiftyNewspaper" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-fall" id="exampleNiftyFall" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-side-fall" id="exampleNiftySideFall" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-3d-flip-horizontal" id="exampleNiftyFlipHorizontal" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-3d-flip-vertical" id="exampleNiftyFlipVertical" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-3d-sign" id="exampleNifty3dSign" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-super-scaled" id="exampleNiftySuperScaled" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-just-me" id="exampleNiftyJustMe" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-3d-slit" id="exampleNifty3dSlit" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-rotate-from-bottom" id="exampleNifty3dRotateBottom" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-rotate-from-left" id="exampleNifty3dRotateInLeft" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default margin-0" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="examplePositionTop" aria-hidden="true" aria-labelledby="examplePositionTop" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-top">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="exampleModalTitle">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="examplePositionCenter" aria-hidden="true" aria-labelledby="examplePositionCenter" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="examplePositionBottom" aria-hidden="true" aria-labelledby="examplePositionBottom" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-bottom">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="examplePositionSidebar" aria-hidden="true" aria-labelledby="examplePositionSidebar" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-sidebar modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框… Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-block">保存
+                </button>
+                <button type="button" class="btn btn-default btn-block" data-dismiss="modal">
+                    取消
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleFormModal" aria-hidden="false" aria-labelledby="exampleFormModalLabel" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="exampleFormModalLabel">在线反馈</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-lg-4 form-group">
+                            <input type="text" class="form-control" name="userName" placeholder="用户名">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <input type="email" class="form-control" name="email" placeholder="邮箱">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <input type="text" class="form-control" name="qq" placeholder="QQ号码">
+                        </div>
+                        <div class="col-lg-12 form-group">
+                            <textarea class="form-control" rows="5" placeholder="请输入您要反馈内容"></textarea>
+                        </div>
+                        <div class="col-lg-12 form-group">
+                            <button class="btn btn-primary btn-outline" data-dismiss="modal" type="button">
+                                发送反馈
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade example-modal-lg" aria-hidden="true" aria-labelledby="exampleOptionalLarge" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="exampleOptionalLarge">大尺寸模态框</h4>
+            </div>
+            <div class="modal-body">
+                我是一个大尺寸的模态框
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade example-modal-sm" aria-hidden="true" aria-labelledby="exampleOptionalSmall" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="exampleOptionalSmall">小尺寸模态框</h4>
+            </div>
+            <div class="modal-body">
+                我是一个小尺寸的模态框
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleTabs" aria-hidden="true" aria-labelledby="exampleModalTabs" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="exampleModalTabs">在模态框中显示选项卡</h4>
+            </div>
+            <ul class="nav nav-tabs nav-tabs-line" role="tablist">
+                <li class="active" role="presentation">
+                    <a data-toggle="tab" href="#exampleLine1" aria-controls="exampleLine1" role="tab">
+                        最新
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a data-toggle="tab" href="#exampleLine2" aria-controls="exampleLine2" role="tab">
+                        热门
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a data-toggle="tab" href="#exampleLine3" aria-controls="exampleLine3" role="tab">
+                        深度
+                    </a>
+                </li>
+            </ul>
+            <div class="modal-body">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="exampleLine1" role="tabpanel">
+                        国家新闻出版广电总局近日通知，
+                        今后凡是涉及医疗、药品、医疗器械、保健品、食品、化妆品、美容等企业、产品或服务的广告，都不得以任何电视节目的形态变相发布，不得以电视购物短片广告形式播出，而且单条广告时长不得超过一分钟。(央视财经)
+                    </div>
+                    <div class="tab-pane" id="exampleLine2" role="tabpanel">
+                        三星准备换掉所有召回手机中的电池，以保证用户安全。据来自韩国业界内部的消息称，未来新批次的Note
+                        7还会彻底抛弃三星子公司SDI生产的电池，转投香港新能源科技有限公司。这次庞大的召回计划会让三星的10亿美元打了水漂，对其品牌形象的影响更是不可估量。
+                    </div>
+                    <div class="tab-pane" id="exampleLine3" role="tabpanel">
+                        乐视网公告，6日，公司高级管理人员蒋晓琳、赵凯在二级市场合计买入公司66000股。蒋晓琳、赵凯表示，基于对公司未来发展前景的信心以及对公司当前股价走势的合理判断，对公司股票进行增持。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleAccrodionModal" aria-hidden="true" aria-labelledby="exampleAccrodionModal" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="panel-group panel-group-continuous margin-0" id="exampleAccrodion1" aria-multiselectable="true" role="tablist">
+                <div class="panel">
+                    <div class="panel-heading" id="exampleHeadingFirst" role="tab">
+                        <a class="panel-title" data-parent="#exampleAccrodion1" data-toggle="collapse" href="#exampleCollapseFirst" aria-controls="exampleCollapseFirst" aria-expanded="false">
+                            <i class="md-palette"></i> 霍金"光帆飞行器"最后的结果很可能是尸骨无存
+                        </a>
+                    </div>
+                    <div class="panel-collapse collapse in" id="exampleCollapseFirst" aria-labelledby="exampleHeadingFirst" role="tabpanel">
+                        <div class="panel-body">
+                            2016年4月12日，物理学家史蒂芬·霍金与投资人尤里·米尔纳在纽约共同宣布了突破摄星（Breaktdivough
+                            Starshot）项目正式启动。这项最终耗资可能达50-100亿美元的太空搜索项目，旨在研发名为“星片”（StarChip）的光帆飞行器，以期能以五分之一光速（每秒6万千米），经过约20年的航行时间抵达半人马座α星，并在到达后再经过约4年的时间向地球传回信息。
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading" id="exampleHeadingSecond" role="tab">
+                        <a class="panel-title collapsed" data-parent="#exampleAccrodion1" data-toggle="collapse" href="#exampleCollapseSecond" aria-controls="exampleCollapseSecond" aria-expanded="false">
+                            <i class="md-place"></i> 众友健康获天士力大健康产业基金5亿元投资
+                        </a>
+                    </div>
+                    <div class="panel-collapse collapse" id="exampleCollapseSecond" aria-labelledby="exampleHeadingSecond" role="tabpanel">
+                        <div class="panel-body">
+                            众友健康将获得天士力大健康产业基金5亿元投资，出让10%的股份。众友健康成立于1996年，据企业工商信息了解到，众友健康对外投资数十家医药大健康类企业。众友健康被称为是中国医药连锁“西北王”。
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading" id="exampleHeadingThird" role="tab">
+                        <a class="panel-title collapsed" data-parent="#exampleAccrodion1" data-toggle="collapse" href="#exampleCollapseThird" aria-controls="exampleCollapseThird" aria-expanded="false">
+                            <i class="md-loupe"></i> 掌上心电确认已获得先声药业数千万元A轮融资
+                        </a>
+                    </div>
+                    <div class="panel-collapse collapse" id="exampleCollapseThird" aria-labelledby="exampleHeadingThird" role="tabpanel">
+                        <div class="panel-body">
+                            接受此次注资之后，掌上心电会借助先声药业的资源优势，着力发展市场部分的工作。王长津坦言，此前掌上心电的市场运营投入和专业性都做的不够好，此次调整后，市场部门的人员配比也会有所增加。2014年9月掌上心电曾获得创新工场数百万美元的天使轮融资。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleGrid" aria-hidden="true" aria-labelledby="exampleGrid" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">在模态框中显示栅格</h4>
+            </div>
+            <div class="modal-body">
+                <div class="example-grid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-col">.col-md-6</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-primary" id="exampleModalPrimary" aria-hidden="true" aria-labelledby="exampleModalPrimary" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-success" id="exampleModalSuccess" aria-hidden="true" aria-labelledby="exampleModalSuccess" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-danger" id="exampleModalDanger" aria-hidden="true" aria-labelledby="exampleModalDanger" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-warning" id="exampleModalWarning" aria-hidden="true" aria-labelledby="exampleModalWarning" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-info" id="exampleModalInfo" aria-hidden="true" aria-labelledby="exampleModalInfo" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">模态框标题</h4>
+            </div>
+            <div class="modal-body">
+                <p>Hi，大家好，我是一个模态框…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-fill-in" id="exampleFillIn" aria-hidden="false" aria-labelledby="exampleFillIn" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="exampleFillInModalTitle">在线反馈</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-lg-4 form-group">
+                            <input type="text" class="form-control" name="userName" placeholder="用户名">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <input type="email" class="form-control" name="email" placeholder="邮箱">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <input type="text" class="form-control" name="qq" placeholder="QQ号码">
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea class="form-control" rows="5" placeholder="请输入您要反馈内容"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+	
+	
+    </div>
+    <div class="page-loading vertical-align text-center">
+        <div class="page-loader loader-default loader vertical-align-middle" data-type="default"></div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-legal">上海畅控 &copy;
+        <a href="http://www.admui.com" target="_blank">admui.com</a>
+    </div>
+    <div class="site-footer-right">
+        当前版本：v1.1.0
+        <a class="margin-left-5" data-toggle="tooltip" title="升级" href="http://www.admui.com/buy" target="_blank">
+            <i class="icon fa-cloud-upload"></i>
+        </a>
+    </div>
+</footer>
+
+<div class="modal fade" id="admui-mobileView" aria-hidden="true" aria-labelledby="admui-mobileView" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-sidebar modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">在手机上预览本页</h4>
+            </div>
+            <div class="modal-body">
+                <p class="thumbnail">
+                    <img class="img-responsive img-bordered" id="admui-mobileViewQRcode" src="">
+                </p>
+                <p class="margin-top-20 font-size-12">
+                    <i class="icon wb-bell" aria-hidden="true"></i> 您可以用手机APP(如微信、支付宝等)的扫码功能扫码下面的二维码，在手机上查看本页显示效果。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 布局 -->
+<script src="../../demo/1.1.0/themes/classic/base/js/sections/menu.js"></script>
+<script src="../../demo/1.1.0/themes/classic/base/js/sections/media-menu.js"></script>
+<script src="../../demo/1.1.0/themes/classic/base/js/sections/content-tabs.js"></script>
+
+<!-- 插件 -->
+<script src="../../demo/1.1.0/vendor/jquery-pjax/jquery.pjax.min.js"></script>
+<script src="../../demo/1.1.0/themes/classic/global/js/plugins/responsive-tabs.js"></script>
+<script src="../../demo/1.1.0/vendor/ashoverscroll/jquery-asHoverScroll.min.js"></script>
+<script src="../../demo/1.1.0/vendor/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../../demo/1.1.0/vendor/screenfull/screenfull.min.js"></script>
+
+<!-- 客服组件 -->
+<script src="../../demo/1.1.0/js/main.js" id="kf5-provide-supportBox" kf5-domain="admui.kf5.com"></script>
+
+<!-- 消息通知 -->
+<!--<script src="../../demo/1.1.0/js/notify-msg.js"></script>-->
+</body>
+</html>
+

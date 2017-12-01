@@ -1,0 +1,2283 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="zh-cn">
+
+<head>
+    <title>主页</title>
+    
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="keywords" content="admui,admui官网,admui下载,admui框架,通用后台管理系统,后台框架,ui框架" />
+<meta name="description" content="Admui在线演示系统，Admui是一个基于最新Web技术的企业级通用管理系统快速开发框架，可以帮助企业极大的提高工作效率，节省开发成本，提升品牌形象。" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 移动设备 viewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui">
+<meta name="author" content="admui.com">
+<!-- 360浏览器默认使用Webkit内核 -->
+<meta name="renderer" content="webkit">
+<!-- 禁止百度SiteAPP转码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<!-- Chrome浏览器添加桌面快捷方式（安卓） -->
+<link rel="icon" type="image/png" href="../../demo/1.1.0/images/favicon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Safari浏览器添加到主屏幕（IOS） -->
+<link rel="icon" sizes="192x192" href="../../demo/1.1.0/images/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Admui">
+<!-- Win8标题栏及ICON图标 -->
+<link rel="apple-touch-icon-precomposed" href="../../demo/1.1.0/images/apple-touch-icon.png">
+<meta name="msapplication-TileImage" content="http://cdn.admui.com/demo/1.1.0/images/app-icon72x72@2x.png">
+<meta name="msapplication-TileColor" content="#62a8ea">
+<!-- 样式 -->
+<link rel="stylesheet" href="../../demo/1.1.0/themes/classic/base/css/site.css" id="siteStyle">
+<!--[if lte IE 9]>
+<meta http-equiv="refresh" content="0; url='http://www.admui.com/ie/'" />
+<![endif]-->
+<!--[if lt IE 10]>
+<script src="../../demo/1.1.0/vendor/media-match/media.match.min.js"></script>
+<script src="../../demo/1.1.0/vendor/respond/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+    
+    <!-- 图标 CSS-->
+    <link rel="stylesheet" href="../../demo/1.1.0/fonts/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="../../demo/1.1.0/fonts/web-icons/web-icons.css">
+    
+    <!-- 插件 CSS -->
+    <link rel="stylesheet" href="../../demo/1.1.0/vendor/animsition/animsition.css">
+    <link rel="stylesheet" href="../../demo/1.1.0/vendor/toastr/toastr.css">
+    <link rel="stylesheet" href="../../demo/1.1.0/css/demo.css">
+    
+    <!-- 插件 -->
+    <script src="../../demo/1.1.0/vendor/jquery/jquery.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/modernizr/modernizr.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/breakpoints/breakpoints.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/artTemplate/template.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/toastr/toastr.min.js"></script>
+    <script src="../../demo/1.1.0/vendor/bootbox/bootbox.min.js"></script>
+    
+    <!-- 核心  -->
+    <script src="../../demo/1.1.0/themes/classic/global/js/core.js"></script>
+    <script src="../../demo/1.1.0/themes/classic/base/js/site.js"></script>
+    <script src="../../demo/1.1.0/themes/classic/global/js/configs/site-configs.js"></script>
+    <script src="../../demo/1.1.0/themes/classic/global/js/components.js"></script>
+    
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c9dd85291ea88dcf64671a7dfa65e0ef";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	
+    <script>
+        Breakpoints();
+    </script>
+</head>
+
+<body class="site-contabs-open site-menubar-unfold ">
+
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-inverse " role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided" data-toggle="menubar">
+            <span class="sr-only">切换菜单</span> <span class="hamburger-bar"></span>
+        </button>
+        <button type="button" class="navbar-toggle collapsed" data-target="#admui-navbarCollapse" data-toggle="collapse">
+            <i class="icon wb-more-horizontal" aria-hidden="true"></i>
+        </button>
+        <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+            <img class="navbar-brand-logo visible-lg visible-xs navbar-logo" src="../../demo/1.1.0/images/logo-white.svg" title="Admui">
+            <img class="navbar-brand-logo hidden-xs hidden-lg navbar-logo-mini" src="../../demo/1.1.0/images/logo-white-min.svg" title="Admui">
+        </div>
+    </div>
+    <div class="navbar-container container-fluid">
+        <div class="collapse navbar-collapse navbar-collapse-toolbar" id="admui-navbarCollapse">
+            <ul class="nav navbar-toolbar navbar-left">
+                <li class="hidden-float">
+                    <a data-toggle="menubar" class="hidden-float" href="javascript:;" role="button" id="admui-toggleMenubar">
+                        <i class="icon hamburger hamburger-arrow-left"> 
+                      		<span class="sr-only">切换目录</span>
+                            <span class="hamburger-bar"></span> 
+                        </i>
+                    </a>
+                </li>
+                <li class="navbar-menu nav-tabs-horizontal nav-tabs-animate is-load" id="admui-navMenu">
+                    <ul class="nav navbar-toolbar nav-tabs" role="tablist">
+                        <!-- 顶部菜单 -->
+                    	
+                        <li role="presentation" class="active">
+                            <a data-toggle="tab" href="#admui-navTabsItem-1" aria-controls="admui-navTabsItem-1" role="tab" aria-expanded="false">
+                                <i class="icon wb-library"></i> <span>UI 示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-2" aria-controls="admui-navTabsItem-2" role="tab" aria-expanded="false">
+                                <i class="icon wb-desktop"></i> <span>页面示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-3" aria-controls="admui-navTabsItem-3" role="tab" aria-expanded="false">
+                                <i class="icon wb-table"></i> <span>表格示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-4" aria-controls="admui-navTabsItem-4" role="tab" aria-expanded="false">
+                                <i class="icon wb-order"></i> <span>表单示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-5" aria-controls="admui-navTabsItem-5" role="tab" aria-expanded="false">
+                                <i class="icon wb-pie-chart"></i> <span>统计图表</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-6" aria-controls="admui-navTabsItem-6" role="tab" aria-expanded="false">
+                                <i class="icon fa-bars"></i> <span>菜单示例</span>
+                            </a>
+                        </li>
+                        
+                        <li role="presentation" class="">
+                            <a data-toggle="tab" href="#admui-navTabsItem-7" aria-controls="admui-navTabsItem-7" role="tab" aria-expanded="false">
+                                <i class="icon wb-settings"></i> <span>系统管理</span>
+                            </a>
+                        </li>
+                        
+                        <li class="dropdown" id="admui-navbarSubMenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-animation="slide-bottom" aria-expanded="true" role="button">
+                                <i class="icon wb-more-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="no-menu" role="presentation">
+                                    <a href="/sitemap.html" target="_blank" role="menuitem" data-pjax>
+                                        <i class="icon wb-list-numbered"></i><span>网站地图</span>
+                                    </a>
+                                </li>
+                                <li class="no-menu" role="presentation">
+                                    <a href="/system/menu.html" target="_blank" role="menuitem" data-pjax>
+                                        <i class="icon wb-wrench"></i><span>菜单管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+                <li class="dropdown" id="admui-navbarMessage">
+                    <a data-toggle="dropdown" href="javascript:;" class="msg-btn" aria-expanded="false" data-animation="scale-up" role="button">
+                        <i class="icon wb-bell" aria-hidden="true"></i> 
+                        <span class="badge badge-danger up msg-num"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media" role="menu">
+                        <li class="dropdown-menu-header" role="presentation">
+                            <h5>最新消息</h5>
+                            <span class="label label-round label-danger"></span>
+                        </li>
+                        <li class="list-group" role="presentation">
+	                        <div class="navbar-message-content" id="admui-messageContent" data-height="220px" data-plugin="slimScroll"></div>
+	                      	<script type="text/html" id="admui-messageTpl">
+										{{if msgList.length < 1}}
+										<p class="text-center height-200 vertical-align">
+	                                		<small class="vertical-align-middle opacity-four">没有新消息</small>
+	                            		</p>
+										{{else}}
+                                        {{each msgList}}
+                                        <a class="list-group-item" href="#"  data-message-id="{{$value.messageId}}" data-title="{{$value.title}}" data-content="{{$value.content}}" role="menuitem">
+                                            <div class="media">
+                                                <div class="media-left padding-right-10">
+                                                    <i class="icon {{$value.type | iconType}} white icon-circle" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="media-heading">{{$value.title}}</h6>
+                                                    <time class="media-meta" datetime="{{$value.sendTime}}">
+                                                        {{$value.sendTime | timeMsg}}
+                                                    </time>
+                                                </div>
+                                            </div>
+                                        </a>{{/each}}
+										{{/if}}
+                                 </script>
+                        </li>
+                        <li class="dropdown-menu-footer" role="presentation">
+                            <a href="/system/account/message.html" target="_blank" data-pjax>
+                            	<i class="icon fa-navicon"></i> 所有消息
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hidden-xs" id="admui-navbarDisplay" data-toggle="tooltip" data-placement="bottom" title="设置主题与布局等">
+                    <a class="icon wb-layout" href="/system/settings/display.html" target="_blank" data-pjax>
+                        <span class="sr-only">主题与布局</span>
+                    </a>
+                </li>
+                <li class="hidden-xs" id="admui-QRcode" data-toggle="tooltip" data-placement="bottom" title="在手机上预览本页">
+                    <a class="icon wb-mobile" href="#" data-toggle="modal" data-target="#admui-mobileView">
+                        <span class="sr-only">在手机上预览</span></a>
+                </li>
+                <li class="hidden-xs" id="admui-demo-app" data-toggle="tooltip" data-placement="bottom" title="下载桌面版">
+                    <a class="icon wb-download dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" role="button">
+                        <span class="sr-only">下载桌面版</span></a>
+                    <ul class="dropdown-menu dropdown-menu-success bullet dropdown-menu-right" aria-labelledby="demoApp" role="menu">
+                        <li role="presentation">
+                            <a href="http://dl.admui.com/app/win/admui-demo.zip" role="menuitem"><i class="icon fa-windows"></i> Windows 版</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="http://dl.admui.com/app/mac/admui-demo.zip" role="menuitem"><i class="icon fa-apple"></i> MacOS 版</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="open-kf" id="admui-service" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="在线咨询">
+                    <a class="icon wb-user" href="#" role="button">
+                        <span class="sr-only">在线咨询</span></a>
+                </li>
+                <li class="hidden-xs" id="admui-navbarFullscreen" data-toggle="tooltip" data-placement="bottom" title="全屏">
+                    <a class="icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
+                        <span class="sr-only">全屏</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icon fa-sign-out" id="admui-signOut" data-ctx="" data-user="9" href="/system/login.html" role="button">
+                    	<span class="sr-only">退出</span>
+                   	</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="site-menubar site-menubar-dark">
+    <div class="site-menubar-body">
+        <div class="tab-content height-full" id="admui-navTabs">
+        	<!-- 一级菜单 -->
+            
+            <div class="tab-pane animation-fade height-full active" id="admui-navTabsItem-1" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">UI 示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-laptop" aria-hidden="true"></i><span class="site-menu-title">布局</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">栅格</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/grids.html" target="_blank">
+	                                                <span class="site-menu-title">基本栅格</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/layout-grid.html" target="_blank">
+	                                                <span class="site-menu-title">布局栅格</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">标题栏</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/headers.html" target="_blank">
+	                                                <span class="site-menu-title">普通</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/layouts/bordered-header.html" target="_blank">
+	                                                <span class="site-menu-title">带边框</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/panel-transition.html" target="_blank">
+                                    	<span class="site-menu-title">面板动画</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/boxed.html" target="_blank">
+                                    	<span class="site-menu-title">盒式布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/page-aside.html" target="_blank">
+                                    	<span class="site-menu-title">侧边栏</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/layouts/two-columns.html" target="_blank">
+                                    	<span class="site-menu-title">两栏式布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-cube" aria-hidden="true"></i><span class="site-menu-title">基本</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">面板</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/structure.html" target="_blank">
+	                                                <span class="site-menu-title">面板结构</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/actions.html" target="_blank">
+	                                                <span class="site-menu-title">面板操作</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/basic/panel/portlets.html" target="_blank">
+	                                                <span class="site-menu-title">面板组件</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/buttons.html" target="_blank">
+                                    	<span class="site-menu-title">按钮</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/icons.html" target="_blank">
+                                    	<span class="site-menu-title">矢量图标</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/dropdowns.html" target="_blank">
+                                    	<span class="site-menu-title">下拉菜单</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/list.html" target="_blank">
+                                    	<span class="site-menu-title">列表组</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/tooltip-popover.html" target="_blank">
+                                    	<span class="site-menu-title">气泡提示 & 弹出框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/modals.html" target="_blank">
+                                    	<span class="site-menu-title">模态框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/tabs-accordions.html" target="_blank">
+                                    	<span class="site-menu-title">选项卡 & 折叠面板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/images.html" target="_blank">
+                                    	<span class="site-menu-title">图片</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/badges-labels.html" target="_blank">
+                                    	<span class="site-menu-title">徽章 & 标签</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/carousel.html" target="_blank">
+                                    	<span class="site-menu-title">轮播组件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/typography.html" target="_blank">
+                                    	<span class="site-menu-title">排版</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/progress-bars.html" target="_blank">
+                                    	<span class="site-menu-title">进度条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/colors.html" target="_blank">
+                                    	<span class="site-menu-title">配色方案</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/basic/utilities.html" target="_blank">
+                                    	<span class="site-menu-title">辅助类</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-cubes" aria-hidden="true"></i><span class="site-menu-title">进阶</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/tour.html" target="_blank">
+                                    	<span class="site-menu-title">新手指引</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/animation.html" target="_blank">
+                                    	<span class="site-menu-title">动画</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/highlight.html" target="_blank">
+                                    	<span class="site-menu-title">代码高亮</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/lightbox.html" target="_blank">
+                                    	<span class="site-menu-title">灯箱</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/scrollbar.html" target="_blank">
+                                    	<span class="site-menu-title">滚动条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/rating.html" target="_blank">
+                                    	<span class="site-menu-title">评分</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/context-menu.html" target="_blank">
+                                    	<span class="site-menu-title">右键菜单</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/alertify.html" target="_blank">
+                                    	<span class="site-menu-title">Alertify弹框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/masonry.html" target="_blank">
+                                    	<span class="site-menu-title">瀑布流布局</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">树形控件</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/advanced/tree/jstree.html" target="_blank">
+	                                                <span class="site-menu-title">JsTree</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/advanced/tree/treeview.html" target="_blank">
+	                                                <span class="site-menu-title">Treeview</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/toastr.html" target="_blank">
+                                    	<span class="site-menu-title">Toaster 通知</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/sortable-nestable.html" target="_blank">
+                                    	<span class="site-menu-title">拖动排序</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/advanced/bootbox-sweetalert.html" target="_blank">
+                                    	<span class="site-menu-title">弹层组件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-plug" aria-hidden="true"></i><span class="site-menu-title">组件</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/alerts.html" target="_blank">
+                                    	<span class="site-menu-title">警告框</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/ribbon.html" target="_blank">
+                                    	<span class="site-menu-title">彩带</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/pricing-tables.html" target="_blank">
+                                    	<span class="site-menu-title">价目表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/overlay.html" target="_blank">
+                                    	<span class="site-menu-title">遮罩</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/cover.html" target="_blank">
+                                    	<span class="site-menu-title">覆盖层</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">时间轴</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/structure/timeline/simple.html" target="_blank">
+	                                                <span class="site-menu-title">简单时间轴</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/components/structure/timeline/icons.html" target="_blank">
+	                                                <span class="site-menu-title">图标时间轴</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/step.html" target="_blank">
+                                    	<span class="site-menu-title">步骤条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/comments.html" target="_blank">
+                                    	<span class="site-menu-title">评论</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/media.html" target="_blank">
+                                    	<span class="site-menu-title">媒体</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/chat.html" target="_blank">
+                                    	<span class="site-menu-title">聊天窗口</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/testimonials.html" target="_blank">
+                                    	<span class="site-menu-title">客户评价</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/nav.html" target="_blank">
+                                    	<span class="site-menu-title">导航</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/navbars.html" target="_blank">
+                                    	<span class="site-menu-title">导航条</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/blockquotes.html" target="_blank">
+                                    	<span class="site-menu-title">引用</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/pagination.html" target="_blank">
+                                    	<span class="site-menu-title">分页</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/structure/breadcrumbs.html" target="_blank">
+                                    	<span class="site-menu-title">包屑导航</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-puzzle-piece" aria-hidden="true"></i><span class="site-menu-title">小工具</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/statistics.html" target="_blank">
+                                    	<span class="site-menu-title">统计</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/data.html" target="_blank">
+                                    	<span class="site-menu-title">数据</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/blog.html" target="_blank">
+                                    	<span class="site-menu-title">博客</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/chart.html" target="_blank">
+                                    	<span class="site-menu-title">图表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/social.html" target="_blank">
+                                    	<span class="site-menu-title">社交</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/components/widgets/weather.html" target="_blank">
+                                    	<span class="site-menu-title">天气</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-2" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">页面示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-home" aria-hidden="true"></i><span class="site-menu-title">首页示例</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/index-v1.html" target="_blank">
+                                    	<span class="site-menu-title">首页示例 01</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/index-v2.html" target="_blank">
+                                    	<span class="site-menu-title">首页示例 02</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/ecommerce.html" target="_blank">
+                                    	<span class="site-menu-title">电商网站型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/analytics.html" target="_blank">
+                                    	<span class="site-menu-title">数据统计型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/home/team.html" target="_blank">
+                                    	<span class="site-menu-title">团队协作型</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-files-o" aria-hidden="true"></i><span class="site-menu-title">常用页面</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/blank.html" target="_blank">
+                                    	<span class="site-menu-title">空白页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/faq.html" target="_blank">
+                                    	<span class="site-menu-title">帮助文档</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/gallery-grid.html" target="_blank">
+                                    	<span class="site-menu-title">相册</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/search-result.html" target="_blank">
+                                    	<span class="site-menu-title">搜索</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/user.html" target="_blank">
+                                    	<span class="site-menu-title">客户列表</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/email.html" target="_blank">
+                                    	<span class="site-menu-title">邮件模板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/general/code-editor.html" target="_blank">
+                                    	<span class="site-menu-title">代码编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/error.html" target="_blank">
+                                    	<span class="site-menu-title">错误页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/noauth.html" target="_blank">
+                                    	<span class="site-menu-title">没有权限</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/maintenance.html" target="_blank">
+                                    	<span class="site-menu-title">网站维护中</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/locked.html" target="_blank">
+                                    	<span class="site-menu-title">锁屏页面</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-group" aria-hidden="true"></i><span class="site-menu-title">团队协作</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/calendar.html" target="_blank">
+                                    	<span class="site-menu-title">日历</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/notebook.html" target="_blank">
+                                    	<span class="site-menu-title">笔记</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/taskboard.html" target="_blank">
+                                    	<span class="site-menu-title">任务看板</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">知识库</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/articles.html" target="_blank">
+	                                                <span class="site-menu-title">列表</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/categories.html" target="_blank">
+	                                                <span class="site-menu-title">分类</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/documents/article.html" target="_blank">
+	                                                <span class="site-menu-title">详情</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/forum.html" target="_blank">
+                                    	<span class="site-menu-title">论坛</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/message.html" target="_blank">
+                                    	<span class="site-menu-title">即时通讯</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/mailbox.html" target="_blank">
+                                    	<span class="site-menu-title">邮箱</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/pages/team/media.html" target="_blank">
+                                    	<span class="site-menu-title">文件管理</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">项目</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/projects.html" target="_blank">
+	                                                <span class="site-menu-title">项目列表 01</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/pages/team/work.html" target="_blank">
+	                                                <span class="site-menu-title">项目列表 02</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-3" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">表格示例</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/tables/basic/index.html" target="_blank">
+                            	<i class="site-menu-icon fa-table" aria-hidden="true"></i><span class="site-menu-title">基本表格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/tables/treegrid/index.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">树形表格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-list-alt" aria-hidden="true"></i><span class="site-menu-title">DataTables</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/basic-init/index.html" target="_blank">
+                                    	<span class="site-menu-title">基本初始化</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/advanced-init/index.html" target="_blank">
+                                    	<span class="site-menu-title">高级初始化</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/data-sources/index.html" target="_blank">
+                                    	<span class="site-menu-title">数据源</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/api/index.html" target="_blank">
+                                    	<span class="site-menu-title">API</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/ajax/index.html" target="_blank">
+                                    	<span class="site-menu-title">AJAX</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/server-side/index.html" target="_blank">
+                                    	<span class="site-menu-title">服务器模式</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/plug-ins/index.html" target="_blank">
+                                    	<span class="site-menu-title">插件</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/tables/data-tables/others/index.html" target="_blank">
+                                    	<span class="site-menu-title">其他</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-4" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">表单相关</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/general.html" target="_blank">
+                            	<i class="site-menu-icon fa-circle-o" aria-hidden="true"></i><span class="site-menu-title">基本表单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/material.html" target="_blank">
+                            	<i class="site-menu-icon fa-google" aria-hidden="true"></i><span class="site-menu-title">质感风格</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/advanced.html" target="_blank">
+                            	<i class="site-menu-icon fa-toggle-off" aria-hidden="true"></i><span class="site-menu-title">高级表单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/layouts.html" target="_blank">
+                            	<i class="site-menu-icon fa-indent" aria-hidden="true"></i><span class="site-menu-title">表单布局</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/wizard.html" target="_blank">
+                            	<i class="site-menu-icon fa-arrow-right" aria-hidden="true"></i><span class="site-menu-title">表单向导</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/validation.html" target="_blank">
+                            	<i class="site-menu-icon fa-check-square-o" aria-hidden="true"></i><span class="site-menu-title">表单验证</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/masks.html" target="_blank">
+                            	<i class="site-menu-icon fa-at" aria-hidden="true"></i><span class="site-menu-title">格式预设</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/editable.html" target="_blank">
+                            	<i class="site-menu-icon fa-edit" aria-hidden="true"></i><span class="site-menu-title">表单编辑</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-list-alt" aria-hidden="true"></i><span class="site-menu-title">编辑器</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/summernote.html" target="_blank">
+                                    	<span class="site-menu-title">文本编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/markdown.html" target="_blank">
+                                    	<span class="site-menu-title">Markdown编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/forms/editor/ace.html" target="_blank">
+                                    	<span class="site-menu-title">代码编辑器</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/image-cropping.html" target="_blank">
+                            	<i class="site-menu-icon fa-cut" aria-hidden="true"></i><span class="site-menu-title">图片裁剪</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/forms/dropify.html" target="_blank">
+                            	<i class="site-menu-icon fa-cloud-upload" aria-hidden="true"></i><span class="site-menu-title">文件上传</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-5" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">统计图表</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-pie-chart" aria-hidden="true"></i><span class="site-menu-title">简单图表</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/chartjs.html" target="_blank">
+                                    	<span class="site-menu-title">Chart.js</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/gauges.html" target="_blank">
+                                    	<span class="site-menu-title">Gauges</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/flot.html" target="_blank">
+                                    	<span class="site-menu-title">Flot</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/peity.html" target="_blank">
+                                    	<span class="site-menu-title">Peity</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/sparkline.html" target="_blank">
+                                    	<span class="site-menu-title">Sparkline</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/morris.html" target="_blank">
+                                    	<span class="site-menu-title">Morris</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/chartist.html" target="_blank">
+                                    	<span class="site-menu-title">Chartist</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/rickshaw.html" target="_blank">
+                                    	<span class="site-menu-title">Rickshaw</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/charts/c3.html" target="_blank">
+                                    	<span class="site-menu-title">C3</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/charts/echarts.html" target="_blank">
+                            	<i class="site-menu-icon fa-area-chart" aria-hidden="true"></i><span class="site-menu-title">百度 Echarts</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-6" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">菜单演示 01</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">一级菜单</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/menu.html" target="_blank">
+                                    	<span class="site-menu-title">二级菜单 01</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/menu.html" target="_blank">
+                                    	<span class="site-menu-title">二级菜单 02</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                
+                                	<li class="site-menu-item has-sub ">
+	                                    <a href="javascript:;">
+	                                    	<span class="site-menu-title">二级菜单 03</span><span class="site-menu-arrow"></span></a>
+	                                    <ul class="site-menu-sub">
+	                                	<!-- 五级菜单 -->
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 001</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 002</span>
+												</a>
+	                                        </li>
+	                                	
+	                                		<li class="site-menu-item ">
+	                                            <a data-pjax href="/menu.html" target="_blank">
+	                                                <span class="site-menu-title">三级菜单 003</span>
+												</a>
+	                                        </li>
+	                                	
+	                                	<!-- 五级菜单 -->
+	                                	</ul>
+                                	</li>
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="#" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">独立菜单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<li class="site-menu-category">菜单演示 02</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/menu.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">独立菜单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="tab-pane animation-fade height-full " id="admui-navTabsItem-7" role="tabpanel">
+                <div>
+                    <ul class="site-menu">
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    	<li class="site-menu-category">系统信息</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/menu.html" target="_blank">
+                            	<i class="site-menu-icon fa-bars" aria-hidden="true"></i><span class="site-menu-title">菜单管理</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/user.html" target="_blank">
+                            	<i class="site-menu-icon fa-street-view" aria-hidden="true"></i><span class="site-menu-title">用户管理</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/log.html" target="_blank">
+                            	<i class="site-menu-icon fa-file-text-o" aria-hidden="true"></i><span class="site-menu-title">日志信息</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/blacklist.html" target="_blank">
+                            	<i class="site-menu-icon fa-shield" aria-hidden="true"></i><span class="site-menu-title">黑名单</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                        
+                        <li class="site-menu-item has-sub ">
+                            <a href="javascript:;"><i class="site-menu-icon fa-gear" aria-hidden="true"></i><span class="site-menu-title">系统设置</span><span class="site-menu-arrow"></span></a>
+                            <ul class="site-menu-sub">
+                            	<!-- 四级菜单 -->
+                            	
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/system/settings/display.html" target="_blank">
+                                    	<span class="site-menu-title">显示设置</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                            	
+                                <li class="site-menu-item ">
+                                    <a data-pjax href="/system/settings/log.html" target="_blank">
+                                    	<span class="site-menu-title">日志设置</span>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                <!-- 四级菜单 -->
+                            </ul>
+                        </li>
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<li class="site-menu-category">我的账户</li>
+                    	<!-- 三级菜单 -->
+                    	
+                    	
+                    	
+                    	<li class="site-menu-item ">
+                            <a data-pjax href="/system/account.html" target="_blank">
+                            	<i class="site-menu-icon fa-key" aria-hidden="true"></i><span class="site-menu-title">账户信息</span>
+                            </a>
+                        </li>
+                        
+                        
+                    	
+                    	
+                    	<!-- 三级菜单 -->
+                    	
+                    	<!-- 二级菜单 -->
+                    	
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 一级菜单 -->
+        </div>
+    </div>
+</nav>
+<nav class="site-contabs" id="admui-siteConTabs">
+    <button type="button" class="btn btn-icon btn-default pull-left hide">
+        <i class="icon fa-angle-double-left"></i>
+    </button>
+    <div class="contabs-scroll pull-left">
+        <ul class="nav con-tabs">
+            <li class="active">
+                <a data-pjax href="/home.html" rel="contents"><span>首页</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-group pull-right">
+        <button type="button" class="btn btn-icon btn-default hide">
+            <i class="icon fa-angle-double-right"></i>
+        </button>
+        <button type="button" class="btn btn-default dropdown-toggle btn-outline" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span> <span class="sr-only">切换菜单</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="conTabsDropdown" role="menu">
+            <li class="reload-page" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-reload"></i> 刷新当前</a>
+            </li>
+            <li class="close-other" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-close"></i> 关闭其他</a>
+            </li>
+            <li class="close-all" role="presentation">
+                <a href="javascript:;" role="menuitem"><i class="icon wb-power"></i> 关闭所有</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="site-page">
+    <div class="page-container" id="admui-pageContent">
+    
+    
+	
+
+
+
+
+
+
+<title>博客</title>
+
+<link rel="stylesheet" href="../../demo/1.1.0/vendor/plyr/plyr.css">
+
+<div class="page animation-fade">
+    <div class="page-header">
+        <h1 class="page-title">博客小工具</h1>
+        <div class="page-header-actions">
+            <button type="button" class="btn btn-sm btn-outline btn-default btn-round">
+                <span class="text hidden-xs">设置</span> <i class="icon wb-chevron-right" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="row" data-plugin="masonry">
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover overlay overlay-hover">
+                        <img class="cover-image overlay-scale" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/volvo-cars-and-autoliv-partner-up-for-self-driving-car-trials-that-are-set-for-2017_1.jpg" alt="">
+                    </div>
+                    <div class="widget-body">
+                        <h3 class="widget-title">沃尔沃新财路：除了卖车，他们还打算卖自动驾驶技术</h3>
+                        <p class="widget-metas">2分钟前</p>
+                        <p>作为汽车制造商的沃尔沃在这次合作里，不仅能让从竞争对手手中挣到钱，还能大大增加自动驾驶汽车的数量。不过要想把自动驾驶技术卖给其他汽车制造商，还是有很多技术问题需要解决。</p>
+                        <div class="widget-body-footer">
+                            <a class="btn btn-outline btn-default" href="javascript:;">阅读全文</a>
+                            <div class="widget-actions pull-right">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>25</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>18</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover">
+                        <div class="cover">
+                            <div class="cover-gallery carousel slide" id="exampleCoverGallery" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li class="active" data-target="#exampleCoverGallery" data-slide-to="0"></li>
+                                    <li data-target="#exampleCoverGallery" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img alt="第一张图片" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/2016-09-07-20-33-47.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="第二张图片" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/Poke%CC%81mon-Go-Plus-2.jpg">
+                                    </div>
+                                </div>
+
+                                <a class="left carousel-control" href="#exampleCoverGallery" data-slide="prev" role="button">
+                                    <span class="icon wb-chevron-left" aria-hidden="true"></span> <span class="sr-only">上一张</span>
+                                </a>
+                                <a class="right carousel-control" href="#exampleCoverGallery" data-slide="next" role="button">
+                                    <span class="icon wb-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">下一张</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-body">
+                        <h3 class="widget-title">谁才是真正的“妖怪手表”？精灵宝可梦 GO Plus 将在一周后决战 Apple Watch</h3>
+                        <p class="widget-metas">2 小时前</p>
+                        <p>但对于任天堂来说，通过软件联动 Apple Watch 来增加 Pokemon GO 的可玩性并不是主要目标。擅长用周边“压榨”粉丝钱包的他们，最后还是推出了一款 Pokemon GO
+                            的可穿戴设备 Pokemon GO Plus。</p>
+                        <div class="widget-body-footer">
+                            <a class="btn btn-default btn-outline" href="javascript:;">阅读全文</a>
+                            <div class="widget-actions pull-right">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>63</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>24</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover">
+                        <div class="cover-background padding-30" style="background-image: url('http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/004342wffz6m3ft819skz6_meitu_4.jpg')">
+                            <blockquote class="cover-quote white">百度官方、华兴资本辟谣：百度外卖、糯米业务出售给美团传言不实</blockquote>
+                        </div>
+                    </div>
+                    <div class="widget-body">
+                        <p class="widget-metas">2016年9月10日</p>
+                        <p>据 The verge 报道，沃尔沃与奥托立夫将共同把他们的自动驾驶技术和知识产权迁移到双方成立的合资公司之中，新公司总部将设在沃尔沃的 “老家” 瑞典哥德堡。</p>
+                        <div class="widget-body-footer">
+                            <a class="btn btn-default btn-outline" href="javascript:;">阅读全文</a>
+                            <div class="widget-actions pull-right">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>37</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>20</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover plyr">
+                        <audio controls style="width: 100%">
+
+                            <source type="audio/mp3" src="https://cdn.selz.com/plyr/1.0/logistics-96-sample.mp3">
+                            <source type="audio/ogg" src="https://cdn.selz.com/plyr/1.0/logistics-96-sample.ogg">
+
+                            <a href="https://cdn.selz.com/plyr/1.0/logistics-96-sample.mp3">下载</a>
+                        </audio>
+                    </div>
+                    <div class="widget-body">
+                        <h3 class="widget-title">Nike“试衣间”也用 VR ，消费体验会因此升级吗？</h3>
+                        <p class="widget-metas">1 个月前</p>
+                        <p>今天上午，Nike 在上海发布了2016 Nike Sportswear Tech Pack 男女款秋季系列。与以往不同的是，为了让消费者对产品有更深入的了解，Nike
+                            在上海淮海品牌体验店设置了 VR 体验区。</p>
+                        <div class="widget-body-footer">
+                            <a class="btn btn-default btn-outline" href="javascript:;">阅读全文</a>
+                            <div class="widget-actions pull-right">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>123</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>66</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover plyr">
+                        <video poster="http://cdn.admui.com/demo/1.1.0/images/poster.jpg" controls crossorigin>
+
+                            <source type="video/mp4" src="https://cdn.selz.com/plyr/1.0/movie.mp4">
+                            <source type="video/webm" src="https://cdn.selz.com/plyr/1.0/movie.webm">
+
+                            <track kind="captions" label="English" srclang="en" src="//cdn.selz.com/plyr/1.0/en.vtt" default>
+
+                            <a href="https://cdn.selz.com/plyr/1.0/movie.mp4">下载</a>
+                        </video>
+                    </div>
+                    <div class="widget-body">
+                        <h3 class="widget-title">微信能直接发 GIF 啦！送表情包制作最全指南 | 有用功</h3>
+                        <p class="widget-metas">2016年9月7日</p>
+                        <p>以 iOS 版（微信版本号为 6.3.25）为例，你现在不仅可以在聊天中直接发送 iOS 相册里的 GIF 动图，还能直接在「表情管理」中将 GIF 动图直接添加为表情。</p>
+                        <div class="widget-body-footer">
+                            <a class="btn btn-default btn-outline" href="javascript:;">阅读全文</a>
+                            <div class="widget-actions pull-right">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>19</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>71</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover overlay">
+                        <img class="cover-image" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/IMG_1666.0.0.jpg" alt="...">
+                        <div class="overlay-shade overlay-panel"></div>
+                    </div>
+                    <div class="widget-body">
+                        <h3 class="widget-title">工作狂看过来，微软让你们的车变身移动办公室</h3>
+                        <p class="widget-metas">前天</p>
+                        <p>2016 IFA 德国柏林消费电子展上，梅赛德斯 – 奔驰宣布与微软合作，推出了 “In Car Office”
+                            项目，意图让客户的汽车变身车载个人助手，在乘车上班过程中可以不浪费一分一秒，更有效率地来完成简单的工作。 </p>
+                        <div class="widget-body-footer">
+                            <a class="btn btn-default btn-outline" href="javascript:;">
+                                <i class="icon wb-chevron-right-mini font-size-16"></i>阅读全文
+                            </a>
+                            <div class="widget-actions pull-right">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>63</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>26</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover overlay-hover overlay">
+                        <img class="cover-image overlay-spin" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/Eveniment-Apple-7.jpg" alt="...">
+                    </div>
+                    <div class="widget-body">
+                        <div class="widget-actions widget-actions-sidebar">
+                            <a href="javascript:;"><i class="icon wb-share"></i></a>
+                            <a href="javascript:;">
+                                <i class="icon wb-heart"></i> <span>5</span></a>
+                            <a href="javascript:;">
+                                <i class="icon wb-chat"></i> <span>8</span></a>
+                        </div>
+                        <div class="widget-content">
+                            <h3 class="widget-title">苹果 2016 发布会观影指南</h3>
+                            <p class="widget-metas">星期一</p>
+                            <p>北京时间 9 月 8 日凌晨 1 点，苹果将在旧金山 Bill Graham 市政礼堂举办特别发布会，新一代 iPhone、Apple Watch 和 MacBook Pro
+                                有望亮相发布。作为少数受邀参加苹果发布会的中文媒体，未来一周爱范儿将在旧金山给大家带来一手的现场报道和深度的产业分析。 </p>
+                            <div class="widget-body-footer">
+                                <a class="btn btn-default btn-outline" href="javascript:;">阅读全文</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article widget-shadow">
+                    <div class="widget-header cover overlay-hover overlay">
+                        <img class="cover-image overlay-scale" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/the-kai-kaihasselblad-small-boy-by-xiangyang-du.jpg" alt="...">
+                    </div>
+                    <div class="widget-body">
+                        <p class="widget-metas type-link">
+                            文
+                            <a href="javascript:;">苏苏</a>
+                            <a href="javascript:;">6天前</a>
+                            <a href="javascript:;">
+                                <span>3</span> 评论
+                            </a>
+                        </p>
+                        <h3 class="widget-title">造型很像单反的富士中画幅，他爹到底是徕卡还是哈苏</h3>
+                        <p>或许有些朋友不太理解，认为仿旁轴设计、能装“小红点”的快门、下半身皮质包裹机身的富士，应该是穷人的徕卡，而不是哈苏。</p>
+                        <div class="widget-body-footer">
+                            <div class="widget-actions pull-left">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>253</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>115</span></a>
+                            </div>
+                            <a class="btn btn-default btn-outline pull-right" href="javascript:;">
+                                <i class="icon wb-chevron-right-mini"></i> 阅读全文
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget widget-article">
+                    <div class="widget-left">
+                        <div class="cover-background" style="background-image: url('http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/photo-1452830978618-d6feae7d0ffa.jpeg')"></div>
+                    </div>
+                    <div class="widget-body">
+                        <p class="widget-metas">
+                            <span class="widget-author">苏轩</span> / <span class="widget-category">最新</span> /
+                            <span class="widget-time">12天前</span>
+                        </p>
+                        <h3 class="widget-title">推荐 6 款 Chrome 插件，省事省力还养眼</h3>
+                        <p>2016 年 4 月，Chrome 以 41.72% 的份额正式超越 IE 成为全球第一大浏览器。自 Chrome
+                            发布以来，它就一直蚕食着其他浏览器的市场占有率。这不仅仅是因为它有着简洁美观的界面设计，也因为它强大的扩展功能，用户能按照自己的喜好去定制浏览器。 </p>
+                        <div class="widget-body-footer">
+                            <div class="widget-actions pull-left">
+                                <a href="javascript:;"><i class="icon wb-share"></i></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-heart"></i> <span>21</span></a>
+                                <a href="javascript:;">
+                                    <i class="icon wb-chat"></i> <span>35</span></a>
+                            </div>
+                            <a class="btn btn-outline btn-default pull-right" href="javascript:;">
+                                <i class="icon wb-chevron-right-mini"></i> 阅读全文
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12 masonry-item">
+
+                <div class="widget">
+                    <div class="widget-header cover overlay">
+                        <img class="cover-image height-xs-250" src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2016/09/projectmuze.jpg" alt="...">
+                        <div class="overlay-panel overlay-background text-center vertical-align">
+                            <div class="vertical-align-middle">
+                                <div class="widget-time widget-divider">
+                                    <span>半个月前</span>
+                                </div>
+                                <h3 class="widget-title margin-bottom-20">Google 的 AI 能设计衣服了，然而画风有些辣眼睛……</h3>
+                                <button type="button" class="btn btn-outline btn-inverse">阅读全文</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../../demo/1.1.0/vendor/plyr/plyr.min.js"></script>
+<script src="../../demo/1.1.0/vendor/matchheight/jquery.matchHeight.min.js"></script>
+<script src="../../demo/1.1.0/vendor/masonry/masonry.pkgd.min.js"></script>
+
+
+	
+	
+	
+    </div>
+    <div class="page-loading vertical-align text-center">
+        <div class="page-loader loader-default loader vertical-align-middle" data-type="default"></div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-legal">上海畅控 &copy;
+        <a href="http://www.admui.com" target="_blank">admui.com</a>
+    </div>
+    <div class="site-footer-right">
+        当前版本：v1.1.0
+        <a class="margin-left-5" data-toggle="tooltip" title="升级" href="http://www.admui.com/buy" target="_blank">
+            <i class="icon fa-cloud-upload"></i>
+        </a>
+    </div>
+</footer>
+
+<div class="modal fade" id="admui-mobileView" aria-hidden="true" aria-labelledby="admui-mobileView" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-sidebar modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">在手机上预览本页</h4>
+            </div>
+            <div class="modal-body">
+                <p class="thumbnail">
+                    <img class="img-responsive img-bordered" id="admui-mobileViewQRcode" src="">
+                </p>
+                <p class="margin-top-20 font-size-12">
+                    <i class="icon wb-bell" aria-hidden="true"></i> 您可以用手机APP(如微信、支付宝等)的扫码功能扫码下面的二维码，在手机上查看本页显示效果。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 布局 -->
+<script src="../../demo/1.1.0/themes/classic/base/js/sections/menu.js"></script>
+<script src="../../demo/1.1.0/themes/classic/base/js/sections/media-menu.js"></script>
+<script src="../../demo/1.1.0/themes/classic/base/js/sections/content-tabs.js"></script>
+
+<!-- 插件 -->
+<script src="../../demo/1.1.0/vendor/jquery-pjax/jquery.pjax.min.js"></script>
+<script src="../../demo/1.1.0/themes/classic/global/js/plugins/responsive-tabs.js"></script>
+<script src="../../demo/1.1.0/vendor/ashoverscroll/jquery-asHoverScroll.min.js"></script>
+<script src="../../demo/1.1.0/vendor/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../../demo/1.1.0/vendor/screenfull/screenfull.min.js"></script>
+
+<!-- 客服组件 -->
+<script src="../../demo/1.1.0/js/main.js" id="kf5-provide-supportBox" kf5-domain="admui.kf5.com"></script>
+
+<!-- 消息通知 -->
+<!--<script src="../../demo/1.1.0/js/notify-msg.js"></script>-->
+</body>
+</html>
+
